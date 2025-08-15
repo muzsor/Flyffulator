@@ -1,0 +1,4108 @@
+[
+    {
+        "id": 14592,
+        "name": {
+            "en": "Clockworks War",
+            "ar": "Clockworks War",
+            "br": "A Grande Guerra de Clockworks",
+            "cns": "时空毁灭者之战",
+            "de": "Clockworks Krieg",
+            "fi": "Clockworks War",
+            "fil": "Clockworks War",
+            "fr": "Guerre du Clockworks",
+            "id": "Clockworks War",
+            "it": "Clockworks War",
+            "jp": "時計仕掛け戦争",
+            "kr": "클락워크 전쟁",
+            "nl": "Clockworks War",
+            "pl": "Clockworks War",
+            "ru": "Clockworks War",
+            "sp": "Guerra de los Mecanismos",
+            "sw": "Clockworks War",
+            "th": "Clockworks War",
+            "tw": "時空毀滅者",
+            "vi": "Clockworks War"
+        },
+        "type": "guildorsolo",
+        "image": "clockworkscage.png",
+        "world": 3171,
+        "difficulty": "normal",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 172800,
+        "monsters": [
+            4611
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -60,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -68,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": -10
+            },
+            {
+                "parameter": "maxhp",
+                "value": -20
+            },
+            {
+                "parameter": "attack",
+                "value": -20
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -20
+            }
+        ],
+        "requiredCreatorQuest": 2032
+    },
+    {
+        "id": 14907,
+        "name": {
+            "en": "Clockworks War",
+            "ar": "Clockworks War",
+            "br": "A Grande Guerra de Clockworks",
+            "cns": "时空毁灭者之战",
+            "de": "Clockworks Krieg",
+            "fi": "Clockworks War",
+            "fil": "Clockworks War",
+            "fr": "Guerre du Clockworks",
+            "id": "Clockworks War",
+            "it": "Clockworks War",
+            "jp": "時計仕掛け戦争",
+            "kr": "클락워크 전쟁",
+            "nl": "Clockworks War",
+            "pl": "Clockworks War",
+            "ru": "Clockworks War",
+            "sp": "Guerra de los Mecanismos",
+            "sw": "Clockworks War",
+            "th": "Clockworks War",
+            "tw": "時空毀滅者",
+            "vi": "Clockworks War"
+        },
+        "type": "guildorsolo",
+        "image": "clockworkscage.png",
+        "world": 3171,
+        "difficulty": "medium",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 172800,
+        "monsters": [
+            4611
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -70,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -84,
+                "maxPlayerCount": 1
+            }
+        ],
+        "requiredCreatorQuest": 2032
+    },
+    {
+        "id": 14393,
+        "name": {
+            "en": "Clockworks War",
+            "ar": "Clockworks War",
+            "br": "A Grande Guerra de Clockworks",
+            "cns": "时空毁灭者之战",
+            "de": "Clockworks Krieg",
+            "fi": "Clockworks War",
+            "fil": "Clockworks War",
+            "fr": "Guerre du Clockworks",
+            "id": "Clockworks War",
+            "it": "Clockworks War",
+            "jp": "時計仕掛け戦争",
+            "kr": "클락워크 전쟁",
+            "nl": "Clockworks War",
+            "pl": "Clockworks War",
+            "ru": "Clockworks War",
+            "sp": "Guerra de los Mecanismos",
+            "sw": "Clockworks War",
+            "th": "Clockworks War",
+            "tw": "時空毀滅者",
+            "vi": "Clockworks War"
+        },
+        "type": "guildorsolo",
+        "image": "clockworkscage.png",
+        "world": 3171,
+        "difficulty": "hard",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 172800,
+        "monsters": [
+            4611
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": 20
+            },
+            {
+                "parameter": "maxhp",
+                "value": 30
+            },
+            {
+                "parameter": "attack",
+                "value": 25
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": 10
+            }
+        ],
+        "requiredCreatorQuest": 2032
+    },
+    {
+        "id": 14704,
+        "name": {
+            "en": "Meteonyker",
+            "ar": "Meteonyker",
+            "br": "Meteonyker",
+            "cns": "飞龙",
+            "de": "Meteonyker",
+            "fi": "Meteonyker",
+            "fil": "Meteonyker",
+            "fr": "Meteonyker",
+            "id": "Meteonyker",
+            "it": "Meteonyker",
+            "jp": "メテオニカ",
+            "kr": "메테오니커",
+            "nl": "Meteonyker",
+            "pl": "Meteonyker",
+            "ru": "Метеоракон",
+            "sp": "Meteonyker",
+            "sw": "Meteonyker",
+            "th": "Meteonyker",
+            "tw": "地炎飛龍",
+            "vi": "Meteonyker"
+        },
+        "type": "guildorsolo",
+        "image": "dekanemeteo.png",
+        "world": 2927,
+        "difficulty": "normal",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 172800,
+        "monsters": [
+            8745,
+            9286,
+            779
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -60,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -68,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": -10
+            },
+            {
+                "parameter": "maxhp",
+                "value": -20
+            },
+            {
+                "parameter": "attack",
+                "value": -20
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -20
+            }
+        ],
+        "requiredCreatorQuest": 5082,
+        "requiredCreatorPenya": 1000000
+    },
+    {
+        "id": 10057,
+        "name": {
+            "en": "Meteonyker",
+            "ar": "Meteonyker",
+            "br": "Meteonyker",
+            "cns": "飞龙",
+            "de": "Meteonyker",
+            "fi": "Meteonyker",
+            "fil": "Meteonyker",
+            "fr": "Meteonyker",
+            "id": "Meteonyker",
+            "it": "Meteonyker",
+            "jp": "メテオニカ",
+            "kr": "메테오니커",
+            "nl": "Meteonyker",
+            "pl": "Meteonyker",
+            "ru": "Метеоракон",
+            "sp": "Meteonyker",
+            "sw": "Meteonyker",
+            "th": "Meteonyker",
+            "tw": "地炎飛龍",
+            "vi": "Meteonyker"
+        },
+        "type": "guildorsolo",
+        "image": "dekanemeteo.png",
+        "world": 2927,
+        "difficulty": "medium",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 172800,
+        "monsters": [
+            8745,
+            9286,
+            779
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -70,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -84,
+                "maxPlayerCount": 1
+            }
+        ],
+        "requiredCreatorQuest": 5082,
+        "requiredCreatorPenya": 1000000
+    },
+    {
+        "id": 12054,
+        "name": {
+            "en": "Meteonyker",
+            "ar": "Meteonyker",
+            "br": "Meteonyker",
+            "cns": "飞龙",
+            "de": "Meteonyker",
+            "fi": "Meteonyker",
+            "fil": "Meteonyker",
+            "fr": "Meteonyker",
+            "id": "Meteonyker",
+            "it": "Meteonyker",
+            "jp": "メテオニカ",
+            "kr": "메테오니커",
+            "nl": "Meteonyker",
+            "pl": "Meteonyker",
+            "ru": "Метеоракон",
+            "sp": "Meteonyker",
+            "sw": "Meteonyker",
+            "th": "Meteonyker",
+            "tw": "地炎飛龍",
+            "vi": "Meteonyker"
+        },
+        "type": "guildorsolo",
+        "image": "dekanemeteo.png",
+        "world": 2927,
+        "difficulty": "hard",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 172800,
+        "monsters": [
+            8745,
+            9286,
+            779
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": 20
+            },
+            {
+                "parameter": "maxhp",
+                "value": 30
+            },
+            {
+                "parameter": "attack",
+                "value": 25
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": 10
+            }
+        ],
+        "requiredCreatorQuest": 5082,
+        "requiredCreatorPenya": 1000000
+    },
+    {
+        "id": 12568,
+        "name": {
+            "en": "Forsaken Tower 1F",
+            "ar": "Forsaken Tower 1F",
+            "br": "Torre Abandonada 1° Andar",
+            "cns": "深渊之塔1层",
+            "de": "Verlassener Turm 1F",
+            "fi": "Forsaken Tower 1F",
+            "fil": "Forsaken Tower 1F",
+            "fr": "Tour oubliée 1er étage",
+            "id": "Forsaken Tower 1F",
+            "it": "Forsaken Tower 1F",
+            "jp": "忘却の塔1階",
+            "kr": "버려진 탑 1층",
+            "nl": "Forsaken Tower 1F",
+            "pl": "Forsaken Tower 1F",
+            "ru": "Forsaken Tower 1F",
+            "sp": "Torre Abandonada 1F",
+            "sw": "Forsaken Tower 1F",
+            "th": "Forsaken Tower 1F",
+            "tw": "被遺忘之塔 1樓 ",
+            "vi": "Forsaken Tower 1F"
+        },
+        "type": "party",
+        "image": "heaven01.png",
+        "world": 7667,
+        "difficulty": "normal",
+        "minLevel": 86,
+        "maxLevel": 95,
+        "cooldownSecs": 86400,
+        "monsters": [
+            360,
+            7128,
+            3631,
+            3621,
+            7728,
+            8870,
+            5916,
+            7663
+        ],
+        "requiredCreatorPenya": 20000
+    },
+    {
+        "id": 12664,
+        "name": {
+            "en": "Forsaken Tower 1F",
+            "ar": "Forsaken Tower 1F",
+            "br": "Torre Abandonada 1° Andar",
+            "cns": "深渊之塔1层",
+            "de": "Verlassener Turm 1F",
+            "fi": "Forsaken Tower 1F",
+            "fil": "Forsaken Tower 1F",
+            "fr": "Tour oubliée 1er étage",
+            "id": "Forsaken Tower 1F",
+            "it": "Forsaken Tower 1F",
+            "jp": "忘却の塔1階",
+            "kr": "버려진 탑 1층",
+            "nl": "Forsaken Tower 1F",
+            "pl": "Forsaken Tower 1F",
+            "ru": "Forsaken Tower 1F",
+            "sp": "Torre Abandonada 1F",
+            "sw": "Forsaken Tower 1F",
+            "th": "Forsaken Tower 1F",
+            "tw": "被遺忘之塔 1樓 ",
+            "vi": "Forsaken Tower 1F"
+        },
+        "type": "solo",
+        "image": "heaven01.png",
+        "world": 7667,
+        "difficulty": "normal",
+        "minLevel": 86,
+        "maxLevel": 95,
+        "cooldownSecs": 86400,
+        "monsters": [
+            360,
+            7128,
+            3631,
+            3621,
+            7728,
+            8870,
+            5916,
+            7663
+        ],
+        "requiredCreatorPenya": 10000
+    },
+    {
+        "id": 398,
+        "name": {
+            "en": "Forsaken Tower 2F",
+            "ar": "Forsaken Tower 2F",
+            "br": "Torre Abandonada 2° Andar",
+            "cns": "深渊之塔2层",
+            "de": "Verlassener Turm 2F",
+            "fi": "Forsaken Tower 2F",
+            "fil": "Forsaken Tower 2F",
+            "fr": "Tour oubliée 2e étage",
+            "id": "Forsaken Tower 2F",
+            "it": "Forsaken Tower 2F",
+            "jp": "忘却の塔2階",
+            "kr": "버려진 탑 2층",
+            "nl": "Forsaken Tower 2F",
+            "pl": "Forsaken Tower 2F",
+            "ru": "Forsaken Tower 2F",
+            "sp": "Torre Abandonada 2F",
+            "sw": "Forsaken Tower 2F",
+            "th": "Forsaken Tower 2F",
+            "tw": "被遺忘之塔 2樓 ",
+            "vi": "Forsaken Tower 2F"
+        },
+        "type": "party",
+        "image": "heaven02.png",
+        "world": 3256,
+        "difficulty": "normal",
+        "minLevel": 96,
+        "maxLevel": 105,
+        "cooldownSecs": 86400,
+        "monsters": [
+            5635,
+            1137,
+            2186,
+            2330,
+            1561,
+            2777,
+            3348,
+            5218
+        ],
+        "requiredCreatorPenya": 60000
+    },
+    {
+        "id": 15089,
+        "name": {
+            "en": "Forsaken Tower 2F",
+            "ar": "Forsaken Tower 2F",
+            "br": "Torre Abandonada 2° Andar",
+            "cns": "深渊之塔2层",
+            "de": "Verlassener Turm 2F",
+            "fi": "Forsaken Tower 2F",
+            "fil": "Forsaken Tower 2F",
+            "fr": "Tour oubliée 2e étage",
+            "id": "Forsaken Tower 2F",
+            "it": "Forsaken Tower 2F",
+            "jp": "忘却の塔2階",
+            "kr": "버려진 탑 2층",
+            "nl": "Forsaken Tower 2F",
+            "pl": "Forsaken Tower 2F",
+            "ru": "Forsaken Tower 2F",
+            "sp": "Torre Abandonada 2F",
+            "sw": "Forsaken Tower 2F",
+            "th": "Forsaken Tower 2F",
+            "tw": "被遺忘之塔 2樓 ",
+            "vi": "Forsaken Tower 2F"
+        },
+        "type": "solo",
+        "image": "heaven02.png",
+        "world": 3256,
+        "difficulty": "normal",
+        "minLevel": 96,
+        "maxLevel": 105,
+        "cooldownSecs": 86400,
+        "monsters": [
+            5635,
+            1137,
+            2186,
+            2330,
+            1561,
+            2777,
+            3348,
+            5218
+        ],
+        "requiredCreatorPenya": 30000
+    },
+    {
+        "id": 12639,
+        "name": {
+            "en": "Forsaken Tower 3F",
+            "ar": "Forsaken Tower 3F",
+            "br": "Torre Abandonada 3° Andar",
+            "cns": "深渊之塔3层",
+            "de": "Verlassener Turm 3F",
+            "fi": "Forsaken Tower 3F",
+            "fil": "Forsaken Tower 3F",
+            "fr": "Tour oubliée 3e étage",
+            "id": "Forsaken Tower 3F",
+            "it": "Forsaken Tower 3F",
+            "jp": "忘却の塔3階",
+            "kr": "버려진 탑 3층",
+            "nl": "Forsaken Tower 3F",
+            "pl": "Forsaken Tower 3F",
+            "ru": "Forsaken Tower 3F",
+            "sp": "Torre Abandonada 3F",
+            "sw": "Forsaken Tower 3F",
+            "th": "Forsaken Tower 3F",
+            "tw": "被遺忘之塔 3樓 ",
+            "vi": "Forsaken Tower 3F"
+        },
+        "type": "party",
+        "image": "heaven03.png",
+        "world": 136,
+        "difficulty": "normal",
+        "minLevel": 106,
+        "maxLevel": 115,
+        "cooldownSecs": 86400,
+        "monsters": [
+            9472,
+            2339,
+            5842,
+            830,
+            8662,
+            9994,
+            9546,
+            4249
+        ],
+        "requiredCreatorPenya": 100000
+    },
+    {
+        "id": 11636,
+        "name": {
+            "en": "Forsaken Tower 3F",
+            "ar": "Forsaken Tower 3F",
+            "br": "Torre Abandonada 3° Andar",
+            "cns": "深渊之塔3层",
+            "de": "Verlassener Turm 3F",
+            "fi": "Forsaken Tower 3F",
+            "fil": "Forsaken Tower 3F",
+            "fr": "Tour oubliée 3e étage",
+            "id": "Forsaken Tower 3F",
+            "it": "Forsaken Tower 3F",
+            "jp": "忘却の塔3階",
+            "kr": "버려진 탑 3층",
+            "nl": "Forsaken Tower 3F",
+            "pl": "Forsaken Tower 3F",
+            "ru": "Forsaken Tower 3F",
+            "sp": "Torre Abandonada 3F",
+            "sw": "Forsaken Tower 3F",
+            "th": "Forsaken Tower 3F",
+            "tw": "被遺忘之塔 3樓 ",
+            "vi": "Forsaken Tower 3F"
+        },
+        "type": "solo",
+        "image": "heaven03.png",
+        "world": 136,
+        "difficulty": "normal",
+        "minLevel": 106,
+        "maxLevel": 115,
+        "cooldownSecs": 86400,
+        "monsters": [
+            9472,
+            2339,
+            5842,
+            830,
+            8662,
+            9994,
+            9546,
+            4249
+        ],
+        "requiredCreatorPenya": 50000
+    },
+    {
+        "id": 18232,
+        "name": {
+            "en": "Forsaken Tower 4F",
+            "ar": "Forsaken Tower 4F",
+            "br": "Torre Abandonada 4° Andar",
+            "cns": "深渊之塔4层",
+            "de": "Verlassener Turm 4F",
+            "fi": "Forsaken Tower 4F",
+            "fil": "Forsaken Tower 4F",
+            "fr": "Tour oubliée 4e étage",
+            "id": "Forsaken Tower 4F",
+            "it": "Forsaken Tower 4F",
+            "jp": "忘却の塔4階",
+            "kr": "버려진 탑 4층",
+            "nl": "Forsaken Tower 4F",
+            "pl": "Forsaken Tower 4F",
+            "ru": "Forsaken Tower 4F",
+            "sp": "Torre Abandonada 4F",
+            "sw": "Forsaken Tower 4F",
+            "th": "Forsaken Tower 4F",
+            "tw": "被遺忘之塔 4樓 ",
+            "vi": "Forsaken Tower 4F"
+        },
+        "type": "party",
+        "image": "heaven04.png",
+        "world": 3837,
+        "difficulty": "normal",
+        "minLevel": 116,
+        "maxLevel": 125,
+        "cooldownSecs": 86400,
+        "monsters": [
+            5435,
+            8543,
+            3756,
+            66,
+            170,
+            948,
+            5103,
+            4800
+        ],
+        "requiredCreatorPenya": 140000
+    },
+    {
+        "id": 11250,
+        "name": {
+            "en": "Forsaken Tower 4F",
+            "ar": "Forsaken Tower 4F",
+            "br": "Torre Abandonada 4° Andar",
+            "cns": "深渊之塔4层",
+            "de": "Verlassener Turm 4F",
+            "fi": "Forsaken Tower 4F",
+            "fil": "Forsaken Tower 4F",
+            "fr": "Tour oubliée 4e étage",
+            "id": "Forsaken Tower 4F",
+            "it": "Forsaken Tower 4F",
+            "jp": "忘却の塔4階",
+            "kr": "버려진 탑 4층",
+            "nl": "Forsaken Tower 4F",
+            "pl": "Forsaken Tower 4F",
+            "ru": "Forsaken Tower 4F",
+            "sp": "Torre Abandonada 4F",
+            "sw": "Forsaken Tower 4F",
+            "th": "Forsaken Tower 4F",
+            "tw": "被遺忘之塔 4樓 ",
+            "vi": "Forsaken Tower 4F"
+        },
+        "type": "solo",
+        "image": "heaven04.png",
+        "world": 3837,
+        "difficulty": "normal",
+        "minLevel": 116,
+        "maxLevel": 125,
+        "cooldownSecs": 86400,
+        "monsters": [
+            5435,
+            8543,
+            3756,
+            66,
+            170,
+            948,
+            5103,
+            4800
+        ],
+        "requiredCreatorPenya": 70000
+    },
+    {
+        "id": 11249,
+        "name": {
+            "en": "Forsaken Tower 5F",
+            "ar": "Forsaken Tower 5F",
+            "br": "Torre Abandonada 5° Andar",
+            "cns": "深渊之塔5层",
+            "de": "Verlassener Turm 5F",
+            "fi": "Forsaken Tower 5F",
+            "fil": "Forsaken Tower 5F",
+            "fr": "Tour oubliée 5e étage",
+            "id": "Forsaken Tower 5F",
+            "it": "Forsaken Tower 5F",
+            "jp": "忘却の塔5階",
+            "kr": "버려진 탑 5층",
+            "nl": "Forsaken Tower 5F",
+            "pl": "Forsaken Tower 5F",
+            "ru": "Forsaken Tower 5F",
+            "sp": "Torre Abandonada 5F",
+            "sw": "Forsaken Tower 5F",
+            "th": "Forsaken Tower 5F",
+            "tw": "被遺忘之塔 5樓 ",
+            "vi": "Forsaken Tower 5F"
+        },
+        "type": "party",
+        "image": "heaven05.png",
+        "world": 3618,
+        "difficulty": "normal",
+        "minLevel": 126,
+        "maxLevel": 135,
+        "cooldownSecs": 86400,
+        "monsters": [
+            4137,
+            658,
+            9513,
+            2853,
+            3814,
+            4071,
+            4981,
+            4947
+        ],
+        "requiredCreatorPenya": 200000
+    },
+    {
+        "id": 11500,
+        "name": {
+            "en": "Forsaken Tower 5F",
+            "ar": "Forsaken Tower 5F",
+            "br": "Torre Abandonada 5° Andar",
+            "cns": "深渊之塔5层",
+            "de": "Verlassener Turm 5F",
+            "fi": "Forsaken Tower 5F",
+            "fil": "Forsaken Tower 5F",
+            "fr": "Tour oubliée 5e étage",
+            "id": "Forsaken Tower 5F",
+            "it": "Forsaken Tower 5F",
+            "jp": "忘却の塔5階",
+            "kr": "버려진 탑 5층",
+            "nl": "Forsaken Tower 5F",
+            "pl": "Forsaken Tower 5F",
+            "ru": "Forsaken Tower 5F",
+            "sp": "Torre Abandonada 5F",
+            "sw": "Forsaken Tower 5F",
+            "th": "Forsaken Tower 5F",
+            "tw": "被遺忘之塔 5樓 ",
+            "vi": "Forsaken Tower 5F"
+        },
+        "type": "solo",
+        "image": "heaven05.png",
+        "world": 3618,
+        "difficulty": "normal",
+        "minLevel": 126,
+        "maxLevel": 135,
+        "cooldownSecs": 86400,
+        "monsters": [
+            4137,
+            658,
+            9513,
+            2853,
+            3814,
+            4071,
+            4981,
+            4947
+        ],
+        "requiredCreatorPenya": 100000
+    },
+    {
+        "id": 15295,
+        "name": {
+            "en": "Forsaken Tower 6F",
+            "ar": "Forsaken Tower 6F",
+            "br": "Forsaken Tower 6F",
+            "cns": "Forsaken Tower 6F",
+            "de": "Forsaken Tower 6F",
+            "fi": "Forsaken Tower 6F",
+            "fil": "Forsaken Tower 6F",
+            "fr": "Forsaken Tower 6F",
+            "id": "Forsaken Tower 6F",
+            "it": "Forsaken Tower 6F",
+            "jp": "Forsaken Tower 6F",
+            "kr": "Forsaken Tower 6F",
+            "nl": "Forsaken Tower 6F",
+            "pl": "Forsaken Tower 6F",
+            "ru": "Forsaken Tower 6F",
+            "sp": "Forsaken Tower 6F",
+            "sw": "Forsaken Tower 6F",
+            "th": "Forsaken Tower 6F",
+            "tw": "Forsaken Tower 6F",
+            "vi": "Forsaken Tower 6F"
+        },
+        "type": "party",
+        "image": "heaven06.png",
+        "world": 14295,
+        "difficulty": "normal",
+        "minLevel": 136,
+        "maxLevel": 145,
+        "cooldownSecs": 86400,
+        "monsters": [
+            13373,
+            15909,
+            14297,
+            19094,
+            12484,
+            13430,
+            12283,
+            14094
+        ],
+        "requiredCreatorPenya": 290000
+    },
+    {
+        "id": 17976,
+        "name": {
+            "en": "Forsaken Tower 6F",
+            "ar": "Forsaken Tower 6F",
+            "br": "Forsaken Tower 6F",
+            "cns": "Forsaken Tower 6F",
+            "de": "Forsaken Tower 6F",
+            "fi": "Forsaken Tower 6F",
+            "fil": "Forsaken Tower 6F",
+            "fr": "Forsaken Tower 6F",
+            "id": "Forsaken Tower 6F",
+            "it": "Forsaken Tower 6F",
+            "jp": "Forsaken Tower 6F",
+            "kr": "Forsaken Tower 6F",
+            "nl": "Forsaken Tower 6F",
+            "pl": "Forsaken Tower 6F",
+            "ru": "Forsaken Tower 6F",
+            "sp": "Forsaken Tower 6F",
+            "sw": "Forsaken Tower 6F",
+            "th": "Forsaken Tower 6F",
+            "tw": "Forsaken Tower 6F",
+            "vi": "Forsaken Tower 6F"
+        },
+        "type": "solo",
+        "image": "heaven06.png",
+        "world": 14295,
+        "difficulty": "normal",
+        "minLevel": 136,
+        "maxLevel": 145,
+        "cooldownSecs": 86400,
+        "monsters": [
+            13373,
+            15909,
+            14297,
+            19094,
+            12484,
+            13430,
+            12283,
+            14094
+        ],
+        "requiredCreatorPenya": 180000
+    },
+    {
+        "id": 15054,
+        "name": {
+            "en": "Forsaken Tower 7F",
+            "ar": "Forsaken Tower 7F",
+            "br": "Forsaken Tower 7F",
+            "cns": "Forsaken Tower 7F",
+            "de": "Forsaken Tower 7F",
+            "fi": "Forsaken Tower 7F",
+            "fil": "Forsaken Tower 7F",
+            "fr": "Forsaken Tower 7F",
+            "id": "Forsaken Tower 7F",
+            "it": "Forsaken Tower 7F",
+            "jp": "Forsaken Tower 7F",
+            "kr": "Forsaken Tower 7F",
+            "nl": "Forsaken Tower 7F",
+            "pl": "Forsaken Tower 7F",
+            "ru": "Forsaken Tower 7F",
+            "sp": "Forsaken Tower 7F",
+            "sw": "Forsaken Tower 7F",
+            "th": "Forsaken Tower 7F",
+            "tw": "Forsaken Tower 7F",
+            "vi": "Forsaken Tower 7F"
+        },
+        "type": "party",
+        "image": "heaven07.png",
+        "world": 13183,
+        "difficulty": "normal",
+        "minLevel": 146,
+        "maxLevel": 165,
+        "cooldownSecs": 86400,
+        "monsters": [
+            2474,
+            19584,
+            16329,
+            10611,
+            13917,
+            17289,
+            19783,
+            11448
+        ],
+        "requiredCreatorPenya": 360000
+    },
+    {
+        "id": 16658,
+        "name": {
+            "en": "Forsaken Tower 7F",
+            "ar": "Forsaken Tower 7F",
+            "br": "Forsaken Tower 7F",
+            "cns": "Forsaken Tower 7F",
+            "de": "Forsaken Tower 7F",
+            "fi": "Forsaken Tower 7F",
+            "fil": "Forsaken Tower 7F",
+            "fr": "Forsaken Tower 7F",
+            "id": "Forsaken Tower 7F",
+            "it": "Forsaken Tower 7F",
+            "jp": "Forsaken Tower 7F",
+            "kr": "Forsaken Tower 7F",
+            "nl": "Forsaken Tower 7F",
+            "pl": "Forsaken Tower 7F",
+            "ru": "Forsaken Tower 7F",
+            "sp": "Forsaken Tower 7F",
+            "sw": "Forsaken Tower 7F",
+            "th": "Forsaken Tower 7F",
+            "tw": "Forsaken Tower 7F",
+            "vi": "Forsaken Tower 7F"
+        },
+        "type": "solo",
+        "image": "heaven07.png",
+        "world": 13183,
+        "difficulty": "normal",
+        "minLevel": 146,
+        "maxLevel": 165,
+        "cooldownSecs": 86400,
+        "monsters": [
+            2474,
+            19584,
+            16329,
+            10611,
+            13917,
+            17289,
+            19783,
+            11448
+        ],
+        "requiredCreatorPenya": 200000
+    },
+    {
+        "id": 11419,
+        "name": {
+            "en": "Leren Chasm (Story)",
+            "ar": "Leren Chasm (Story)",
+            "br": "Abismo de Leren (História)",
+            "cns": "Leren Chasm (Story)",
+            "de": "Lerenkluft (Story)",
+            "fi": "Leren Chasm (Story)",
+            "fil": "Leren Chasm (Story)",
+            "fr": "Gouffre de Leren (Histoire)",
+            "id": "Leren Chasm (Story)",
+            "it": "Leren Chasm (Story)",
+            "jp": "レレン層岩巨淵(ストーリー)",
+            "kr": "레르엔 협곡(스토리)",
+            "nl": "Leren Chasm (Story)",
+            "pl": "Leren Chasm (Story)",
+            "ru": "Leren Chasm (Story)",
+            "sp": "Abismo Leren (Historia)",
+            "sw": "Leren Chasm (Story)",
+            "th": "Leren Chasm (เนื้อเรื่อง)",
+            "tw": "Leren Chasm (Story)",
+            "vi": "Leren Chasm (Story)"
+        },
+        "type": "partyorsolo",
+        "image": "cavern.png",
+        "world": 9311,
+        "difficulty": "story",
+        "minLevel": 16,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            16539,
+            16408,
+            16448,
+            19375,
+            8687,
+            15032,
+            11661
+        ]
+    },
+    {
+        "id": 19867,
+        "name": {
+            "en": "Leren Chasm",
+            "ar": "Leren Chasm",
+            "br": "Abismo de Leren",
+            "cns": "乐雅裂痕",
+            "de": "Lerenkluft",
+            "fi": "Leren Chasm",
+            "fil": "Leren Chasm",
+            "fr": "Gouffre de Leren",
+            "id": "Leren Chasm",
+            "it": "Leren Chasm",
+            "jp": "レレンの淵",
+            "kr": "레르엔 협곡",
+            "nl": "Leren Chasm",
+            "pl": "Leren Chasm",
+            "ru": "Leren Chasm",
+            "sp": "Abismo Leren",
+            "sw": "Leren Chasm",
+            "th": "Leren Chasm",
+            "tw": "勒倫峽谷",
+            "vi": "Leren Chasm"
+        },
+        "type": "partyorsolo",
+        "image": "cavern.png",
+        "world": 9311,
+        "difficulty": "normal",
+        "minLevel": 16,
+        "maxLevel": 30,
+        "cooldownSecs": 3600,
+        "monsters": [
+            9745,
+            4906,
+            8445,
+            8124,
+            3769,
+            7109,
+            1237
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 704,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 1
+            },
+            {
+                "skill": 477,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 3
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 3
+            },
+            {
+                "skill": 9819,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            }
+        ]
+    },
+    {
+        "id": 16977,
+        "name": {
+            "en": "Leren Chasm (Medium)",
+            "ar": "Leren Chasm (Medium)",
+            "br": "Abismo de Leren (Médio)",
+            "cns": "乐雅裂痕 (中等)",
+            "de": "Lerenkluft (Mittel)",
+            "fi": "Leren Chasm (Medium)",
+            "fil": "Leren Chasm (Medium)",
+            "fr": "Gouffre de Leren (Moyen)",
+            "id": "Leren Chasm (Medium)",
+            "it": "Leren Chasm (Medium)",
+            "jp": "レレンの淵（ノーマル）",
+            "kr": "레르엔 협곡(보통)",
+            "nl": "Leren Chasm (Medium)",
+            "pl": "Leren Chasm (Medium)",
+            "ru": "Leren Chasm (Medium)",
+            "sp": "Abismo Leren (Medio)",
+            "sw": "Leren Chasm (Medium)",
+            "th": "Leren Chasm (Medium)",
+            "tw": "勒倫峽谷（中級）",
+            "vi": "Leren Chasm (Medium)"
+        },
+        "type": "partyorsolo",
+        "image": "cavern.png",
+        "world": 9311,
+        "difficulty": "medium",
+        "minLevel": 31,
+        "maxLevel": 60,
+        "cooldownSecs": 3600,
+        "monsters": [
+            3670,
+            2387,
+            2753,
+            5801,
+            679,
+            5356,
+            711
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 2,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 704,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 1
+            },
+            {
+                "skill": 477,
+                "skillLevel": 2,
+                "costItem": 16021,
+                "costCount": 3
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 2,
+                "costItem": 16021,
+                "costCount": 3
+            },
+            {
+                "skill": 9819,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            }
+        ]
+    },
+    {
+        "id": 15267,
+        "name": {
+            "en": "Leren Chasm (Hard)",
+            "ar": "Leren Chasm (Hard)",
+            "br": "Abismo de Leren (Difícil)",
+            "cns": "乐雅裂痕 (高级)",
+            "de": "Lerenkluft (Schwer)",
+            "fi": "Leren Chasm (Hard)",
+            "fil": "Leren Chasm (Hard)",
+            "fr": "Gouffre de Leren (Difficile)",
+            "id": "Leren Chasm (Hard)",
+            "it": "Leren Chasm (Hard)",
+            "jp": "レレンの淵（ハード）",
+            "kr": "레르엔 협곡(어려움)",
+            "nl": "Leren Chasm (Hard)",
+            "pl": "Leren Chasm (Hard)",
+            "ru": "Leren Chasm (Hard)",
+            "sp": "Abismo Leren (Duro)",
+            "sw": "Leren Chasm (Hard)",
+            "th": "Leren Chasm (Hard)",
+            "tw": "勒倫峽谷（困難）",
+            "vi": "Leren Chasm (Hard)"
+        },
+        "type": "partyorsolo",
+        "image": "cavern.png",
+        "world": 9311,
+        "difficulty": "hard",
+        "minLevel": 61,
+        "maxLevel": 90,
+        "cooldownSecs": 3600,
+        "monsters": [
+            6719,
+            7452,
+            2539,
+            5333,
+            4443,
+            7783,
+            4308
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 3,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 704,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 3,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 3,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 9819,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 11989,
+        "name": {
+            "en": "Leren Chasm (Extra Hard)",
+            "ar": "Leren Chasm (Extra Hard)",
+            "br": "Abismo de Leren (Muito Difícil)",
+            "cns": "乐雅裂痕 (困难)",
+            "de": "Lerenkluft (Sehr schwer)",
+            "fi": "Leren Chasm (Extra Hard)",
+            "fil": "Leren Chasm (Extra Hard)",
+            "fr": "Gouffre de Leren (Très Difficile)",
+            "id": "Leren Chasm (Extra Hard)",
+            "it": "Leren Chasm (Extra Hard)",
+            "jp": "レレンの淵（エキストラハード）",
+            "kr": "레르엔 협곡(아주 어려움)",
+            "nl": "Leren Chasm (Extra Hard)",
+            "pl": "Leren Chasm (Extra Hard)",
+            "ru": "Leren Chasm (Extra Hard)",
+            "sp": "Abismo Leren (Extra Duro)",
+            "sw": "Leren Chasm (Extra Hard)",
+            "th": "Leren Chasm (Extra Hard)",
+            "tw": "勒倫峽谷（超難）",
+            "vi": "Leren Chasm (Extra Hard)"
+        },
+        "type": "partyorsolo",
+        "image": "cavern.png",
+        "world": 9311,
+        "difficulty": "extrahard",
+        "minLevel": 91,
+        "maxLevel": 120,
+        "cooldownSecs": 3600,
+        "monsters": [
+            9615,
+            6212,
+            3695,
+            9899,
+            3267,
+            8827,
+            5673
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 704,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 9819,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 15396,
+        "name": {
+            "en": "Leren Chasm (Nightmare)",
+            "ar": "Leren Chasm (Nightmare)",
+            "br": "Abismo de Leren (Pesadelo)",
+            "cns": "乐雅裂痕 (噩梦)",
+            "de": "Lerenkluft (Albtraum)",
+            "fi": "Leren Chasm (Nightmare)",
+            "fil": "Leren Chasm (Nightmare)",
+            "fr": "Gouffre de Leren (Cauchemar)",
+            "id": "Leren Chasm (Nightmare)",
+            "it": "Leren Chasm (Nightmare)",
+            "jp": "レレンの淵（ナイトメア）",
+            "kr": "레르엔 협곡(악몽)",
+            "nl": "Leren Chasm (Nightmare)",
+            "pl": "Leren Chasm (Nightmare)",
+            "ru": "Leren Chasm (Nightmare)",
+            "sp": "Abismo Leren (Pesadilla)",
+            "sw": "Leren Chasm (Nightmare)",
+            "th": "Leren Chasm (Nightmare)",
+            "tw": "勒倫峽谷（惡夢）",
+            "vi": "Leren Chasm (Nightmare)"
+        },
+        "type": "partyorsolo",
+        "image": "cavern.png",
+        "world": 9311,
+        "difficulty": "nightmare",
+        "minLevel": 121,
+        "maxLevel": 140,
+        "cooldownSecs": 3600,
+        "monsters": [
+            7397,
+            2,
+            5574,
+            3535,
+            9159,
+            2663,
+            140
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 704,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 9819,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 13883,
+        "name": {
+            "en": "Leren Chasm (Cursed)",
+            "ar": "Leren Chasm (Cursed)",
+            "br": "Abismo de Leren (Amaldiçoado)",
+            "cns": "Leren Chasm (Cursed)",
+            "de": "Lerenkluft (Verflucht)",
+            "fi": "Leren Chasm (Cursed)",
+            "fil": "Leren Chasm (Cursed)",
+            "fr": "Gouffre de Leren (Maudit)",
+            "id": "Leren Chasm (Cursed)",
+            "it": "Leren Chasm (Cursed)",
+            "jp": "レレン層岩巨淵(カース)",
+            "kr": "레르엔 협곡(저주)",
+            "nl": "Leren Chasm (Cursed)",
+            "pl": "Leren Chasm (Cursed)",
+            "ru": "Leren Chasm (Cursed)",
+            "sp": "Abismo Leren (Maldito)",
+            "sw": "Leren Chasm (Cursed)",
+            "th": "Leren Chasm (ต้องสาป)",
+            "tw": "Leren Chasm (Cursed)",
+            "vi": "Leren Chasm (Cursed)"
+        },
+        "type": "partyorsolo",
+        "image": "cavern.png",
+        "world": 9311,
+        "difficulty": "cursed",
+        "minLevel": 141,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            17048,
+            17961,
+            18648,
+            12384,
+            16793,
+            14071,
+            18679
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 704,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 9819,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 18149,
+        "name": {
+            "en": "Rhisis Catacombs (Story)",
+            "ar": "Rhisis Catacombs (Story)",
+            "br": "Catacumbas de Rhisis (História)",
+            "cns": "Rhisis Catacombs (Story)",
+            "de": "Katakomben von Rhisis (Story)",
+            "fi": "Rhisis Catacombs (Story)",
+            "fil": "Rhisis Catacombs (Story)",
+            "fr": "Catacombes de Rhisis (Histoire)",
+            "id": "Rhisis Catacombs (Story)",
+            "it": "Rhisis Catacombs (Story)",
+            "jp": "リシスの地下墓地(ストーリー)",
+            "kr": "리시스 지하 묘지(스토리)",
+            "nl": "Rhisis Catacombs (Story)",
+            "pl": "Rhisis Catacombs (Story)",
+            "ru": "Rhisis Catacombs (Story)",
+            "sp": "Catacumbas Rhisis (Historia)",
+            "sw": "Rhisis Catacombs (Story)",
+            "th": "Rhisis Catacombs (เนื้อเรื่อง)",
+            "tw": "黎席斯地下墓穴（故事）",
+            "vi": "Rhisis Catacombs (Story)"
+        },
+        "type": "partyorsolo",
+        "image": "ruins.png",
+        "world": 7991,
+        "difficulty": "story",
+        "minLevel": 31,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            13716,
+            17615,
+            15738,
+            11835,
+            16057,
+            17307,
+            13028,
+            16503,
+            11153
+        ]
+    },
+    {
+        "id": 10316,
+        "name": {
+            "en": "Rhisis Catacombs",
+            "ar": "Rhisis Catacombs",
+            "br": "Catacumbas de Rhisis",
+            "cns": "莱斯神之墓",
+            "de": "Katakomben von Rhisis",
+            "fi": "Rhisis Catacombs",
+            "fil": "Guardiane Sanctuary",
+            "fr": "Catacombes de Rhisis",
+            "id": "Rhisis Catacombs",
+            "it": "Rhisis Catacombs",
+            "jp": "リシスの地下墓地",
+            "kr": "리시스 지하 묘지",
+            "nl": "Rhisis Catacombs",
+            "pl": "Rhisis Catacombs",
+            "ru": "Rhisis Catacombs",
+            "sp": "Catacumbas Rhisis",
+            "sw": "Rhisis Catacombs",
+            "th": "Rhisis Catacombs",
+            "tw": "黎席斯地下墓穴",
+            "vi": "Rhisis Catacombs"
+        },
+        "type": "partyorsolo",
+        "image": "ruins.png",
+        "world": 7991,
+        "difficulty": "normal",
+        "minLevel": 31,
+        "maxLevel": 60,
+        "cooldownSecs": 3600,
+        "monsters": [
+            8202,
+            7525,
+            2505,
+            2378,
+            3640,
+            2749,
+            777,
+            9085,
+            2621
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 2,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 704,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 1
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 1
+            },
+            {
+                "skill": 477,
+                "skillLevel": 2,
+                "costItem": 16021,
+                "costCount": 3
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 2,
+                "costItem": 16021,
+                "costCount": 3
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            }
+        ]
+    },
+    {
+        "id": 13683,
+        "name": {
+            "en": "Rhisis Catacombs (Hard)",
+            "ar": "Rhisis Catacombs (Hard)",
+            "br": "Catacumbas de Rhisis (Difícil)",
+            "cns": "莱斯神之墓(困难)",
+            "de": "Katakomben von Rhisis (Schwer)",
+            "fi": "Rhisis Catacombs (Hard)",
+            "fil": "Rhisis Catacombs (Hard)",
+            "fr": "Catacombes de Rhisis (Difficile)",
+            "id": "Rhisis Catacombs (Hard)",
+            "it": "Rhisis Catacombs (Hard)",
+            "jp": "リシスの地下墓地（ハード）",
+            "kr": "리시스 지하 묘지(어려움)",
+            "nl": "Rhisis Catacombs (Hard)",
+            "pl": "Rhisis Catacombs (Hard)",
+            "ru": "Rhisis Catacombs (Hard)",
+            "sp": "Catacumbas Rhisis (Duro)",
+            "sw": "Rhisis Catacombs (Hard)",
+            "th": "Rhisis Catacombs (Hard)",
+            "tw": "黎席斯地下墓穴（困難）",
+            "vi": "Rhisis Catacombs (Hard)"
+        },
+        "type": "partyorsolo",
+        "image": "ruins.png",
+        "world": 7991,
+        "difficulty": "hard",
+        "minLevel": 61,
+        "maxLevel": 90,
+        "cooldownSecs": 3600,
+        "monsters": [
+            6384,
+            1322,
+            8143,
+            2675,
+            5784,
+            9157,
+            9460,
+            4282,
+            6838
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 3,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 704,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 3,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 3,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            }
+        ]
+    },
+    {
+        "id": 14293,
+        "name": {
+            "en": "Rhisis Catacombs (Extra Hard)",
+            "ar": "Rhisis Catacombs (Extra Hard)",
+            "br": "Catacumbas de Rhisis (Muito Difícil)",
+            "cns": "莱斯神之墓(噩梦)",
+            "de": "Katakomben von Rhisis (Sehr schwer)",
+            "fi": "Rhisis Catacombs (Extra Hard)",
+            "fil": "Rhisis Catacombs (Extra Hard)",
+            "fr": "Catacombes de Rhisis (Très Difficile)",
+            "id": "Rhisis Catacombs (Extra Hard)",
+            "it": "Rhisis Catacombs (Extra Hard)",
+            "jp": "リシスの地下墓地（エキストラハード）",
+            "kr": "리시스 지하 묘지(아주 어려움)",
+            "nl": "Rhisis Catacombs (Extra Hard)",
+            "pl": "Rhisis Catacombs (Extra Hard)",
+            "ru": "Rhisis Catacombs (Extra Hard)",
+            "sp": "Catacumbas Rhisis (Extra Duro)",
+            "sw": "Rhisis Catacombs (Extra Hard)",
+            "th": "Rhisis Catacombs (Extra Hard)",
+            "tw": "黎席斯地下墓穴（超難）",
+            "vi": "Rhisis Catacombs (Extra Hard)"
+        },
+        "type": "partyorsolo",
+        "image": "ruins.png",
+        "world": 7991,
+        "difficulty": "extrahard",
+        "minLevel": 91,
+        "maxLevel": 120,
+        "cooldownSecs": 3600,
+        "monsters": [
+            4931,
+            2140,
+            712,
+            5493,
+            7792,
+            4012,
+            7094,
+            2363,
+            1652
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 704,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 17697,
+        "name": {
+            "en": "Rhisis Catacombs (Nightmare)",
+            "ar": "Rhisis Catacombs (Nightmare)",
+            "br": "Catacumbas de Rhisis (Pesadelo)",
+            "cns": "莱斯神之墓(地狱)",
+            "de": "Katakomben von Rhisis (Albtraum)",
+            "fi": "Rhisis Catacombs (Nightmare)",
+            "fil": "Rhisis Catacombs (Nightmare)",
+            "fr": "Catacombes de Rhisis (Cauchemar)",
+            "id": "Rhisis Catacombs (Nightmare)",
+            "it": "Rhisis Catacombs (Nightmare)",
+            "jp": "リシスの地下墓地（ナイトメア）",
+            "kr": "리시스 지하 묘지(악몽)",
+            "nl": "Rhisis Catacombs (Nightmare)",
+            "pl": "Rhisis Catacombs (Nightmare)",
+            "ru": "Rhisis Catacombs (Nightmare)",
+            "sp": "Catacumbas Rhisis (Pesadilla)",
+            "sw": "Rhisis Catacombs (Nightmare)",
+            "th": "Rhisis Catacombs (Nightmare)",
+            "tw": "黎席斯地下墓穴（惡夢）",
+            "vi": "Rhisis Catacombs (Nightmare)"
+        },
+        "type": "partyorsolo",
+        "image": "ruins.png",
+        "world": 7991,
+        "difficulty": "nightmare",
+        "minLevel": 121,
+        "maxLevel": 140,
+        "cooldownSecs": 3600,
+        "monsters": [
+            7327,
+            9574,
+            7077,
+            3058,
+            4161,
+            8438,
+            10000,
+            2567,
+            1471
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 704,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 15227,
+        "name": {
+            "en": "Rhisis Catacombs (Cursed)",
+            "ar": "Rhisis Catacombs (Cursed)",
+            "br": "Catacumba de Rhisis (Amaldiçoado)",
+            "cns": "Rhisis Catacombs (Cursed)",
+            "de": "Katakomben von Rhisis (Verflucht)",
+            "fi": "Rhisis Catacombs (Cursed)",
+            "fil": "Rhisis Catacombs (Cursed)",
+            "fr": "Catacombes de Rhisis (Maudit)",
+            "id": "Rhisis Catacombs (Cursed)",
+            "it": "Rhisis Catacombs (Cursed)",
+            "jp": "リシスの地下墓地(カース)",
+            "kr": "리시스 지하 묘지(저주)",
+            "nl": "Rhisis Catacombs (Cursed)",
+            "pl": "Rhisis Catacombs (Cursed)",
+            "ru": "Rhisis Catacombs (Cursed)",
+            "sp": "Catacumbas Rhisis (Maldito)",
+            "sw": "Rhisis Catacombs (Cursed)",
+            "th": "Rhisis Catacombs (ต้องสาป)",
+            "tw": "黎席斯地下墓穴（詛咒）",
+            "vi": "Rhisis Catacombs (Cursed)"
+        },
+        "type": "partyorsolo",
+        "image": "ruins.png",
+        "world": 7991,
+        "difficulty": "cursed",
+        "minLevel": 141,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            19254,
+            12911,
+            13686,
+            12117,
+            19961,
+            15336,
+            10077,
+            19797,
+            11329
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 704,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 14679,
+        "name": {
+            "en": "Envy Depths (Story)",
+            "ar": "Envy Depths (Story)",
+            "br": "Profundezas da Avareza (História)",
+            "cns": "渴望深渊 (故事模式)",
+            "de": "Neidische Tiefen (Story)",
+            "fi": "Envy Depths (Story)",
+            "fil": "Envy Depths (Story)",
+            "fr": "Abîme de l'Envie (Histoire)",
+            "id": "Envy Depths (Story)",
+            "it": "Envy Depths (Story)",
+            "jp": "エンヴィーデプス（ストーリー）",
+            "kr": "엔비 심연(스토리)",
+            "nl": "Envy Depths (Story)",
+            "pl": "Envy Depths (Story)",
+            "ru": "Envy Depths (Story)",
+            "sp": "Profundidades Envidia (Historia)",
+            "sw": "Envy Depths (Story)",
+            "th": "Envy Depths (เนื้อเรื่อง)",
+            "tw": "Envy Depths (Story)",
+            "vi": "Envy Depths (Story)"
+        },
+        "type": "partyorsolo",
+        "image": "underwater.png",
+        "world": 8939,
+        "difficulty": "story",
+        "minLevel": 61,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            12958,
+            14360,
+            14104,
+            17062,
+            19865,
+            10120,
+            13969
+        ]
+    },
+    {
+        "id": 10010,
+        "name": {
+            "en": "Envy Depths",
+            "ar": "Envy Depths",
+            "br": "Profundezas da Avareza",
+            "cns": "渴望深渊",
+            "de": "Neidische Tiefen",
+            "fi": "Envy Depths",
+            "fil": "Envy Depths",
+            "fr": "Abîme de l'Envie",
+            "id": "Envy Depths",
+            "it": "Envy Depths",
+            "jp": "エンヴィーデプス",
+            "kr": "엔비 심연",
+            "nl": "Envy Depths",
+            "pl": "Envy Depths",
+            "ru": "Envy Depths",
+            "sp": "Profundidades Envidiosas",
+            "sw": "Envy Depths",
+            "th": "Envy Depths",
+            "tw": "嫉妒深淵",
+            "vi": "Envy Depths"
+        },
+        "type": "partyorsolo",
+        "image": "underwater.png",
+        "world": 8939,
+        "difficulty": "normal",
+        "minLevel": 61,
+        "maxLevel": 90,
+        "cooldownSecs": 3600,
+        "monsters": [
+            7607,
+            8737,
+            5419,
+            7478,
+            2519,
+            1344,
+            4664
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 3,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 3,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 3,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 9819,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 16675,
+        "name": {
+            "en": "Envy Depths (Extra Hard)",
+            "ar": "Envy Depths (Extra Hard)",
+            "br": "Profundezas da Avareza (Muito Difícil)",
+            "cns": "渴望深渊 (困难)",
+            "de": "Neidische Tiefen (Sehr schwer)",
+            "fi": "Envy Depths (Extra Hard)",
+            "fil": "Envy Depths (Extra Hard)",
+            "fr": "Abîme de l'Envie (Très Difficile)",
+            "id": "Envy Depths (Extra Hard)",
+            "it": "Envy Depths (Extra Hard)",
+            "jp": "エンヴィーデプス（エキストラハード）",
+            "kr": "엔비 심연(아주 어려움)",
+            "nl": "Envy Depths (Extra Hard)",
+            "pl": "Envy Depths (Extra Hard)",
+            "ru": "Envy Depths (Extra Hard)",
+            "sp": "Profundidades Envidiosas (Extra Duro)",
+            "sw": "Envy Depths (Extra Hard)",
+            "th": "Envy Depths (Extra Hard)",
+            "tw": "嫉妒深淵（超難）",
+            "vi": "Envy Depths (Extra Hard)"
+        },
+        "type": "partyorsolo",
+        "image": "underwater.png",
+        "world": 8939,
+        "difficulty": "extrahard",
+        "minLevel": 91,
+        "maxLevel": 120,
+        "cooldownSecs": 3600,
+        "monsters": [
+            6981,
+            5921,
+            3948,
+            7466,
+            8504,
+            3846,
+            6362
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 9819,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 10438,
+        "name": {
+            "en": "Envy Depths (Nightmare)",
+            "ar": "Envy Depths (Nightmare)",
+            "br": "Profundezas da Avareza (Pesadelo)",
+            "cns": "渴望深渊 (噩梦)",
+            "de": "Neidische Tiefen (Albtraum)",
+            "fi": "Envy Depths (Nightmare)",
+            "fil": "Envy Depths (Nightmare)",
+            "fr": "Abîme de l'Envie (Cauchemar)",
+            "id": "Envy Depths (Nightmare)",
+            "it": "Envy Depths (Nightmare)",
+            "jp": "エンヴィーデプス（ナイトメア）",
+            "kr": "엔비 심연(악몽)",
+            "nl": "Envy Depths (Nightmare)",
+            "pl": "Envy Depths (Nightmare)",
+            "ru": "Envy Depths (Nightmare)",
+            "sp": "Profundidades Envidiosas (Pesadilla)",
+            "sw": "Envy Depths (Nightmare)",
+            "th": "Envy Depths (Nightmare)",
+            "tw": "嫉妒深淵（惡夢）",
+            "vi": "Envy Depths (Nightmare)"
+        },
+        "type": "partyorsolo",
+        "image": "underwater.png",
+        "world": 8939,
+        "difficulty": "nightmare",
+        "minLevel": 121,
+        "maxLevel": 140,
+        "cooldownSecs": 3600,
+        "monsters": [
+            8229,
+            9658,
+            7420,
+            2793,
+            252,
+            2000,
+            1179
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 9819,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 15733,
+        "name": {
+            "en": "Envy Depths (Cursed)",
+            "ar": "Envy Depths (Cursed)",
+            "br": "Profundezas da Avareza (Amaldiçoado)",
+            "cns": "渴望深渊 (诅咒)",
+            "de": "Neidische Tiefen (Verflucht)",
+            "fi": "Envy Depths (Cursed)",
+            "fil": "Envy Depths (Cursed)",
+            "fr": "Abîme de l'Envie (Maudit)",
+            "id": "Envy Depths (Cursed)",
+            "it": "Envy Depths (Cursed)",
+            "jp": "エンヴィーデプス（カース）",
+            "kr": "엔비 심연(저주)",
+            "nl": "Envy Depths (Cursed)",
+            "pl": "Envy Depths (Cursed)",
+            "ru": "Envy Depths (Cursed)",
+            "sp": "Profundidades Envidia (Maldito)",
+            "sw": "Envy Depths (Cursed)",
+            "th": "Envy Depths (ต้องสาป)",
+            "tw": "Envy Depths (Cursed)",
+            "vi": "Envy Depths (Cursed)"
+        },
+        "type": "partyorsolo",
+        "image": "underwater.png",
+        "world": 8939,
+        "difficulty": "cursed",
+        "minLevel": 141,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            15260,
+            18628,
+            11970,
+            10954,
+            13224,
+            18091,
+            18588
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 9819,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 14020,
+        "name": {
+            "en": "Guardiane Sanctuary (Story)",
+            "ar": "Guardiane Sanctuary (Story)",
+            "br": "Santuário de Guardiane (História)",
+            "cns": "堕落圣域 (故事模式)",
+            "de": "Guardiane Heiligtum (Story)",
+            "fi": "Guardiane Sanctuary (Story)",
+            "fil": "Guardiane Sanctuary (Story)",
+            "fr": "Sanctuaire de Gardiane (Histoire)",
+            "id": "Guardiane Sanctuary (Story)",
+            "it": "Guardiane Sanctuary (Story)",
+            "jp": "ガーディアンサンクチュアリ(ストーリー)",
+            "kr": "가르디안 성소(스토리)",
+            "nl": "Guardiane Sanctuary (Story)",
+            "pl": "Guardiane Sanctuary (Story)",
+            "ru": "Guardiane Sanctuary (Story)",
+            "sp": "Santuario Guardiane (Historia)",
+            "sw": "Guardiane Sanctuary (Story)",
+            "th": "Guardiane Sanctuary (เนื้อเรื่อง)",
+            "tw": "Guardiane Sanctuary (Story)",
+            "vi": "Guardiane Sanctuary (Story)"
+        },
+        "type": "partyorsolo",
+        "image": "guardianedungeon.png",
+        "world": 8453,
+        "difficulty": "story",
+        "minLevel": 91,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            18836,
+            18876,
+            19027,
+            13966,
+            19078,
+            392
+        ]
+    },
+    {
+        "id": 10105,
+        "name": {
+            "en": "Guardiane Sanctuary",
+            "ar": "Guardiane Sanctuary",
+            "br": "Santuário de Guardiane",
+            "cns": "堕落圣域",
+            "de": "Guardiane Heiligtum",
+            "fi": "Guardiane Sanctuary",
+            "fil": "Leren Chasm",
+            "fr": "Sanctuaire de Guardiane",
+            "id": "Guardiane Sanctuary",
+            "it": "Guardiane Sanctuary",
+            "jp": "ガーディアンサンクチュアリ",
+            "kr": "가르디안 성소",
+            "nl": "Guardiane Sanctuary",
+            "pl": "Guardiane Sanctuary",
+            "ru": "Guardiane Sanctuary",
+            "sp": "Santuario de Guardianes",
+            "sw": "Guardiane Sanctuary",
+            "th": "Guardiane Sanctuary",
+            "tw": "守護者聖域",
+            "vi": "Guardiane Sanctuary"
+        },
+        "type": "partyorsolo",
+        "image": "guardianedungeon.png",
+        "world": 8453,
+        "difficulty": "normal",
+        "minLevel": 91,
+        "maxLevel": 120,
+        "cooldownSecs": 3600,
+        "monsters": [
+            3218,
+            8452,
+            7117,
+            9083,
+            4033,
+            3066
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 4,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 17801,
+        "name": {
+            "en": "Guardiane Sanctuary (Nightmare)",
+            "ar": "Guardiane Sanctuary (Nightmare)",
+            "br": "Santuário de Guardiane (Pesadelo)",
+            "cns": "堕落圣域 (噩梦)",
+            "de": "Guardiane Heiligtum (Alptraum)",
+            "fi": "Guardiane Sanctuary (Nightmare)",
+            "fil": "Guardiane Sanctuary (Nightmare)",
+            "fr": "Sanctuaire de Guardiane (Cauchemar)",
+            "id": "Guardiane Sanctuary (Nightmare)",
+            "it": "Guardiane Sanctuary (Nightmare)",
+            "jp": "ガーディアンサンクチュアリ（ナイトメア）",
+            "kr": "가르디안 성소(악몽)",
+            "nl": "Guardiane Sanctuary (Nightmare)",
+            "pl": "Guardiane Sanctuary (Nightmare)",
+            "ru": "Guardiane Sanctuary (Nightmare)",
+            "sp": "Santuario de Guardianes (Pesadilla)",
+            "sw": "Guardiane Sanctuary (Nightmare)",
+            "th": "Guardiane Sanctuary (Nightmare)",
+            "tw": "守護者聖域（惡夢）",
+            "vi": "Guardiane Sanctuary (Nightmare)"
+        },
+        "type": "partyorsolo",
+        "image": "guardianedungeon.png",
+        "world": 8453,
+        "difficulty": "nightmare",
+        "minLevel": 121,
+        "maxLevel": 140,
+        "cooldownSecs": 3600,
+        "monsters": [
+            4867,
+            7213,
+            2847,
+            4309,
+            8056,
+            6501
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 14451,
+        "name": {
+            "en": "Guardiane Sanctuary (Cursed)",
+            "ar": "Guardiane Sanctuary (Cursed)",
+            "br": "Santuário de Guardiane (Amaldiçoado)",
+            "cns": "堕落圣域 (诅咒)",
+            "de": "Guardiane Heiligtum (Verflucht)",
+            "fi": "Guardiane Sanctuary (Cursed)",
+            "fil": "Guardiane Sanctuary (Cursed)",
+            "fr": "Sanctuaire de Gardiane (Maudit)",
+            "id": "Guardiane Sanctuary (Cursed)",
+            "it": "Guardiane Sanctuary (Cursed)",
+            "jp": "ガーディアンサンクチュアリ(カース)",
+            "kr": "가르디안 성소(저주)",
+            "nl": "Guardiane Sanctuary (Cursed)",
+            "pl": "Guardiane Sanctuary (Cursed)",
+            "ru": "Guardiane Sanctuary (Cursed)",
+            "sp": "Santuario Guardiane (Maldito)",
+            "sw": "Guardiane Sanctuary (Cursed)",
+            "th": "Guardiane Sanctuary (ต้องสาป)",
+            "tw": "Guardiane Sanctuary (Cursed)",
+            "vi": "Guardiane Sanctuary (Cursed)"
+        },
+        "type": "partyorsolo",
+        "image": "guardianedungeon.png",
+        "world": 8453,
+        "difficulty": "cursed",
+        "minLevel": 141,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            16714,
+            14031,
+            16120,
+            15415,
+            17471,
+            15268
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 17871,
+        "name": {
+            "en": "Storm Peak (Story)",
+            "ar": "Storm Peak (Story)",
+            "br": "Pico Tempestuoso (História)",
+            "cns": "风暴之巅 (故事模式)",
+            "de": "Sturmgipfel (Story)",
+            "fi": "Storm Peak (Story)",
+            "fil": "Storm Peak (Story)",
+            "fr": "Pic de Tempête (Histoire)",
+            "id": "Storm Peak (Story)",
+            "it": "Storm Peak (Story)",
+            "jp": "ストームピーク(ストーリー)",
+            "kr": "스톰 봉우리(스토리)",
+            "nl": "Storm Peak (Story)",
+            "pl": "Storm Peak (Story)",
+            "ru": "Storm Peak (Story)",
+            "sp": "Pico Tormenta (Historia)",
+            "sw": "Storm Peak (Story)",
+            "th": "Storm Peak (เนื้อเรื่อง)",
+            "tw": "Storm Peak (Story)",
+            "vi": "Storm Peak (Story)"
+        },
+        "type": "partyorsolo",
+        "image": "storm.png",
+        "world": 4241,
+        "difficulty": "story",
+        "minLevel": 121,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            17534,
+            18530,
+            5447,
+            12449,
+            17690,
+            12183,
+            17287
+        ]
+    },
+    {
+        "id": 15077,
+        "name": {
+            "en": "Storm Peak",
+            "ar": "Storm Peak",
+            "br": "Cume da Tormenta",
+            "cns": "风暴之巅",
+            "de": "Sturmgipfel",
+            "fi": "Storm Peak",
+            "fil": "Storm Peak",
+            "fr": "Pic de Tempête",
+            "id": "Storm Peak",
+            "it": "Storm Peak",
+            "jp": "ストームピーク",
+            "kr": "스톰 봉우리",
+            "nl": "Storm Peak",
+            "pl": "Storm Peak",
+            "ru": "Storm Peak",
+            "sp": "Pico Tormentoso",
+            "sw": "Storm Peak",
+            "th": "Storm Peak",
+            "tw": "風暴峰",
+            "vi": "Storm Peak"
+        },
+        "type": "partyorsolo",
+        "image": "storm.png",
+        "world": 4241,
+        "difficulty": "normal",
+        "minLevel": 121,
+        "maxLevel": 140,
+        "cooldownSecs": 3600,
+        "monsters": [
+            6793,
+            2987,
+            8242,
+            3321,
+            1948,
+            4908,
+            7093
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 12210,
+        "name": {
+            "en": "Storm Peak (Cursed)",
+            "ar": "Storm Peak (Cursed)",
+            "br": "Pico Tempestuoso (Amaldiçoado)",
+            "cns": "风暴之巅 (诅咒)",
+            "de": "Sturmgipfel (Verflucht)",
+            "fi": "Storm Peak (Cursed)",
+            "fil": "Storm Peak (Cursed)",
+            "fr": "Pic de Tempête (Maudit)",
+            "id": "Storm Peak (Cursed)",
+            "it": "Storm Peak (Cursed)",
+            "jp": "ストームピーク(カース)",
+            "kr": "스톰 봉우리(저주)",
+            "nl": "Storm Peak (Cursed)",
+            "pl": "Storm Peak (Cursed)",
+            "ru": "Storm Peak (Cursed)",
+            "sp": "Pico Tormenta (Maldito)",
+            "sw": "Storm Peak (Cursed)",
+            "th": "Storm Peak (ต้องสาป)",
+            "tw": "Storm Peak (Cursed)",
+            "vi": "Storm Peak (Cursed)"
+        },
+        "type": "partyorsolo",
+        "image": "storm.png",
+        "world": 4241,
+        "difficulty": "cursed",
+        "minLevel": 141,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            17214,
+            17196,
+            14047,
+            14234,
+            14516,
+            17488,
+            15792
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 15201,
+        "name": {
+            "en": "The Wilds (Story)",
+            "ar": "The Wilds (Story)",
+            "br": "Salvabruta (História)",
+            "cns": "荒野 (故事模式)",
+            "de": "Die Wildnis (Story)",
+            "fi": "The Wilds (Story)",
+            "fil": "The Wilds (Story)",
+            "fr": "Désiréa (Histoire)",
+            "id": "The Wilds (Story)",
+            "it": "The Wilds (Story)",
+            "jp": "ザ・ワイルズ(ストーリー)",
+            "kr": "러스티아(스토리)",
+            "nl": "The Wilds (Story)",
+            "pl": "The Wilds (Story)",
+            "ru": "The Wilds (Story)",
+            "sp": "Los Salvajes (Historia)",
+            "sw": "The Wilds (Story)",
+            "th": "The Wilds (เนื้อเรื่อง)",
+            "tw": "The Wilds (Story)",
+            "vi": "The Wilds (Story)"
+        },
+        "type": "partyorsolo",
+        "image": "wilds.png",
+        "world": 15217,
+        "difficulty": "story",
+        "minLevel": 141,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            19517,
+            10303,
+            16181,
+            17120,
+            11261,
+            17224,
+            19338,
+            17309,
+            5602,
+            18128,
+            16723,
+            12835,
+            16575
+        ]
+    },
+    {
+        "id": 14320,
+        "name": {
+            "en": "The Wilds",
+            "ar": "The Wilds",
+            "br": "Selvabruta",
+            "cns": "荒野",
+            "de": "Die Wildnis",
+            "fi": "The Wilds",
+            "fil": "The Wilds",
+            "fr": "Désiréa",
+            "id": "The Wilds",
+            "it": "The Wilds",
+            "jp": "ザ・ワイルズ",
+            "kr": "러스티아",
+            "nl": "The Wilds",
+            "pl": "The Wilds",
+            "ru": "The Wilds",
+            "sp": "Los Salvajes",
+            "sw": "The Wilds",
+            "th": "The Wilds",
+            "tw": "The Wilds",
+            "vi": "The Wilds"
+        },
+        "type": "partyorsolo",
+        "image": "wilds.png",
+        "world": 15217,
+        "difficulty": "normal",
+        "minLevel": 141,
+        "maxLevel": 165,
+        "cooldownSecs": 3600,
+        "monsters": [
+            17443,
+            10944,
+            10208,
+            16549,
+            15138,
+            12894,
+            15755,
+            19819,
+            11913,
+            13132,
+            17187,
+            17041,
+            16244
+        ],
+        "availableCurses": [
+            {
+                "skill": 4617,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 5
+            },
+            {
+                "skill": 709,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 1524,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 2
+            },
+            {
+                "skill": 477,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 6108,
+                "skillLevel": 5,
+                "costItem": 16021,
+                "costCount": 4
+            },
+            {
+                "skill": 1103,
+                "skillLevel": 1,
+                "costItem": 16021,
+                "costCount": 5
+            }
+        ]
+    },
+    {
+        "id": 17705,
+        "name": {
+            "en": "Big Muscle",
+            "ar": "Big Muscle",
+            "br": "Musculão, o Assustador",
+            "cns": "狂乱巨石兽",
+            "de": "Big Muscle",
+            "fi": "Big Muscle",
+            "fil": "Big Muscle",
+            "fr": "Big Musclor",
+            "id": "Big Muscle",
+            "it": "Big Muscle",
+            "jp": "ビッグマッスル",
+            "kr": "빅 머슬",
+            "nl": "Grote Muscle",
+            "pl": "Wielki Mięśniak",
+            "ru": "Тиранотавр",
+            "sp": "Gran Muscle",
+            "sw": "Big Muscle",
+            "th": "Big Muscle",
+            "tw": "恐怖的牛唄唄",
+            "vi": "Big Muscle"
+        },
+        "type": "partyorsolo",
+        "image": "bigmuscle.png",
+        "world": 1595,
+        "difficulty": "normal",
+        "minLevel": 1,
+        "maxLevel": 30,
+        "cooldownSecs": 86400,
+        "monsters": [
+            60,
+            1597
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -60,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -68,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": -10
+            },
+            {
+                "parameter": "maxhp",
+                "value": -20
+            },
+            {
+                "parameter": "attack",
+                "value": -20
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -20
+            }
+        ],
+        "requiredCreatorQuest": 693,
+        "requiredCreatorItem": 8086
+    },
+    {
+        "id": 17301,
+        "name": {
+            "en": "Big Muscle",
+            "ar": "Big Muscle",
+            "br": "Musculão, o Assustador",
+            "cns": "狂乱巨石兽",
+            "de": "Big Muscle",
+            "fi": "Big Muscle",
+            "fil": "Big Muscle",
+            "fr": "Big Musclor",
+            "id": "Big Muscle",
+            "it": "Big Muscle",
+            "jp": "ビッグマッスル",
+            "kr": "빅 머슬",
+            "nl": "Grote Muscle",
+            "pl": "Wielki Mięśniak",
+            "ru": "Тиранотавр",
+            "sp": "Gran Muscle",
+            "sw": "Big Muscle",
+            "th": "Big Muscle",
+            "tw": "恐怖的牛唄唄",
+            "vi": "Big Muscle"
+        },
+        "type": "partyorsolo",
+        "image": "bigmuscle.png",
+        "world": 1595,
+        "difficulty": "medium",
+        "minLevel": 1,
+        "maxLevel": 30,
+        "cooldownSecs": 86400,
+        "monsters": [
+            60,
+            1597
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -70,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -84,
+                "maxPlayerCount": 1
+            }
+        ],
+        "requiredCreatorQuest": 693,
+        "requiredCreatorItem": 8086
+    },
+    {
+        "id": 10147,
+        "name": {
+            "en": "Big Muscle",
+            "ar": "Big Muscle",
+            "br": "Musculão, o Assustador",
+            "cns": "狂乱巨石兽",
+            "de": "Big Muscle",
+            "fi": "Big Muscle",
+            "fil": "Big Muscle",
+            "fr": "Big Musclor",
+            "id": "Big Muscle",
+            "it": "Big Muscle",
+            "jp": "ビッグマッスル",
+            "kr": "빅 머슬",
+            "nl": "Grote Muscle",
+            "pl": "Wielki Mięśniak",
+            "ru": "Тиранотавр",
+            "sp": "Gran Muscle",
+            "sw": "Big Muscle",
+            "th": "Big Muscle",
+            "tw": "恐怖的牛唄唄",
+            "vi": "Big Muscle"
+        },
+        "type": "partyorsolo",
+        "image": "bigmuscle.png",
+        "world": 1595,
+        "difficulty": "hard",
+        "minLevel": 1,
+        "maxLevel": 30,
+        "cooldownSecs": 86400,
+        "monsters": [
+            60,
+            1597
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": 20
+            },
+            {
+                "parameter": "maxhp",
+                "value": 30
+            },
+            {
+                "parameter": "attack",
+                "value": 25
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": 10
+            }
+        ],
+        "requiredCreatorQuest": 693,
+        "requiredCreatorItem": 8086
+    },
+    {
+        "id": 18852,
+        "name": {
+            "en": "Krrr",
+            "ar": "Krrr",
+            "br": "Krrr, o Amedrontador",
+            "cns": "爆炎野人",
+            "de": "Krrr",
+            "fi": "Krrr",
+            "fil": "Krrr",
+            "fr": "Krrr",
+            "id": "Krrr",
+            "it": "Krrr",
+            "jp": "グルング",
+            "kr": "크르르",
+            "nl": "Krrr",
+            "pl": "Skrrr",
+            "ru": "Кр-р",
+            "sp": "Krrr",
+            "sw": "Krrr",
+            "th": "Krrr",
+            "tw": "咕咕噥噥",
+            "vi": "Krrr"
+        },
+        "type": "partyorsolo",
+        "image": "krrr.png",
+        "world": 1873,
+        "difficulty": "normal",
+        "minLevel": 1,
+        "maxLevel": 40,
+        "cooldownSecs": 86400,
+        "monsters": [
+            2676,
+            6949
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -60,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -68,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": -10
+            },
+            {
+                "parameter": "maxhp",
+                "value": -20
+            },
+            {
+                "parameter": "attack",
+                "value": -20
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -20
+            }
+        ],
+        "requiredCreatorQuest": 2291,
+        "requiredCreatorItem": 6857
+    },
+    {
+        "id": 14708,
+        "name": {
+            "en": "Krrr",
+            "ar": "Krrr",
+            "br": "Krrr, o Amedrontador",
+            "cns": "爆炎野人",
+            "de": "Krrr",
+            "fi": "Krrr",
+            "fil": "Krrr",
+            "fr": "Krrr",
+            "id": "Krrr",
+            "it": "Krrr",
+            "jp": "グルング",
+            "kr": "크르르",
+            "nl": "Krrr",
+            "pl": "Skrrr",
+            "ru": "Кр-р",
+            "sp": "Krrr",
+            "sw": "Krrr",
+            "th": "Krrr",
+            "tw": "咕咕噥噥",
+            "vi": "Krrr"
+        },
+        "type": "partyorsolo",
+        "image": "krrr.png",
+        "world": 1873,
+        "difficulty": "medium",
+        "minLevel": 1,
+        "maxLevel": 40,
+        "cooldownSecs": 86400,
+        "monsters": [
+            2676,
+            6949
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -70,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -84,
+                "maxPlayerCount": 1
+            }
+        ],
+        "requiredCreatorQuest": 2291,
+        "requiredCreatorItem": 6857
+    },
+    {
+        "id": 10606,
+        "name": {
+            "en": "Krrr",
+            "ar": "Krrr",
+            "br": "Krrr, o Amedrontador",
+            "cns": "爆炎野人",
+            "de": "Krrr",
+            "fi": "Krrr",
+            "fil": "Krrr",
+            "fr": "Krrr",
+            "id": "Krrr",
+            "it": "Krrr",
+            "jp": "グルング",
+            "kr": "크르르",
+            "nl": "Krrr",
+            "pl": "Skrrr",
+            "ru": "Кр-р",
+            "sp": "Krrr",
+            "sw": "Krrr",
+            "th": "Krrr",
+            "tw": "咕咕噥噥",
+            "vi": "Krrr"
+        },
+        "type": "partyorsolo",
+        "image": "krrr.png",
+        "world": 1873,
+        "difficulty": "hard",
+        "minLevel": 1,
+        "maxLevel": 40,
+        "cooldownSecs": 86400,
+        "monsters": [
+            2676,
+            6949
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": 20
+            },
+            {
+                "parameter": "maxhp",
+                "value": 30
+            },
+            {
+                "parameter": "attack",
+                "value": 25
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": 10
+            }
+        ],
+        "requiredCreatorQuest": 2291,
+        "requiredCreatorItem": 6857
+    },
+    {
+        "id": 11300,
+        "name": {
+            "en": "Mushmoot",
+            "ar": "Mushmoot",
+            "br": "Mushmoot, o Horripilador",
+            "cns": "变态蘑菇人",
+            "de": "Mushmoot",
+            "fi": "Mushmoot",
+            "fil": "Mushmoot",
+            "fr": "Mushmoot",
+            "id": "Mushmoot",
+            "it": "Mushmoot",
+            "jp": "マージュムート",
+            "kr": "머시무트",
+            "nl": "Mushmoot",
+            "pl": "Mushmoot",
+            "ru": "Жюльен",
+            "sp": "Mushmoot",
+            "sw": "Mushmoot",
+            "th": "Mushmoot",
+            "tw": "恐怖的菇菇",
+            "vi": "Mushmoot"
+        },
+        "type": "partyorsolo",
+        "image": "bear.png",
+        "world": 7782,
+        "difficulty": "normal",
+        "minLevel": 1,
+        "maxLevel": 50,
+        "cooldownSecs": 86400,
+        "monsters": [
+            8844,
+            5484,
+            7042,
+            4690
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -60,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -68,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": -10
+            },
+            {
+                "parameter": "maxhp",
+                "value": -20
+            },
+            {
+                "parameter": "attack",
+                "value": -20
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -20
+            }
+        ],
+        "requiredCreatorQuest": 4881,
+        "requiredCreatorItem": 6481
+    },
+    {
+        "id": 17798,
+        "name": {
+            "en": "Mushmoot",
+            "ar": "Mushmoot",
+            "br": "Mushmoot, o Horripilador",
+            "cns": "变态蘑菇人",
+            "de": "Mushmoot",
+            "fi": "Mushmoot",
+            "fil": "Mushmoot",
+            "fr": "Mushmoot",
+            "id": "Mushmoot",
+            "it": "Mushmoot",
+            "jp": "マージュムート",
+            "kr": "머시무트",
+            "nl": "Mushmoot",
+            "pl": "Mushmoot",
+            "ru": "Жюльен",
+            "sp": "Mushmoot",
+            "sw": "Mushmoot",
+            "th": "Mushmoot",
+            "tw": "恐怖的菇菇",
+            "vi": "Mushmoot"
+        },
+        "type": "partyorsolo",
+        "image": "bear.png",
+        "world": 7782,
+        "difficulty": "medium",
+        "minLevel": 1,
+        "maxLevel": 50,
+        "cooldownSecs": 86400,
+        "monsters": [
+            8844,
+            5484,
+            7042,
+            4690
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -70,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -84,
+                "maxPlayerCount": 1
+            }
+        ],
+        "requiredCreatorQuest": 4881,
+        "requiredCreatorItem": 6481
+    },
+    {
+        "id": 16786,
+        "name": {
+            "en": "Mushmoot",
+            "ar": "Mushmoot",
+            "br": "Mushmoot, o Horripilador",
+            "cns": "变态蘑菇人",
+            "de": "Mushmoot",
+            "fi": "Mushmoot",
+            "fil": "Mushmoot",
+            "fr": "Mushmoot",
+            "id": "Mushmoot",
+            "it": "Mushmoot",
+            "jp": "マージュムート",
+            "kr": "머시무트",
+            "nl": "Mushmoot",
+            "pl": "Mushmoot",
+            "ru": "Жюльен",
+            "sp": "Mushmoot",
+            "sw": "Mushmoot",
+            "th": "Mushmoot",
+            "tw": "恐怖的菇菇",
+            "vi": "Mushmoot"
+        },
+        "type": "partyorsolo",
+        "image": "bear.png",
+        "world": 7782,
+        "difficulty": "hard",
+        "minLevel": 1,
+        "maxLevel": 50,
+        "cooldownSecs": 86400,
+        "monsters": [
+            8844,
+            5484,
+            7042,
+            4690
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": 20
+            },
+            {
+                "parameter": "maxhp",
+                "value": 30
+            },
+            {
+                "parameter": "attack",
+                "value": 25
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": 10
+            }
+        ],
+        "requiredCreatorQuest": 4881,
+        "requiredCreatorItem": 6481
+    },
+    {
+        "id": 17571,
+        "name": {
+            "en": "Iblis Leanes",
+            "ar": "Iblis Leanes",
+            "br": "Iblis Leanes",
+            "cns": "秘殿守护者",
+            "de": "Ivillis Leanes",
+            "fi": "Iblis Leanes",
+            "fil": "Iblis Leanes",
+            "fr": "Ivillis Leanes",
+            "id": "Iblis Leanes",
+            "it": "Iblis Leanes",
+            "jp": "イブル",
+            "kr": "이블리스 네스",
+            "nl": "Iblis Leanes",
+            "pl": "Iblis Leanes",
+            "ru": "Черно-белый Ужосс",
+            "sp": "Adorador de Iblis",
+            "sw": "Iblis Leanes",
+            "th": "Iblis Leanes",
+            "tw": "地穴魔法大團長",
+            "vi": "Iblis Leanes"
+        },
+        "type": "partyorsolo",
+        "image": "iblisleanes.png",
+        "world": 8346,
+        "difficulty": "normal",
+        "minLevel": 1,
+        "maxLevel": 75,
+        "cooldownSecs": 86400,
+        "monsters": [
+            7249
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -60,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -68,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": -10
+            },
+            {
+                "parameter": "maxhp",
+                "value": -20
+            },
+            {
+                "parameter": "attack",
+                "value": -20
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -20
+            }
+        ],
+        "requiredCreatorQuest": 3316
+    },
+    {
+        "id": 18112,
+        "name": {
+            "en": "Iblis Leanes",
+            "ar": "Iblis Leanes",
+            "br": "Iblis Leanes",
+            "cns": "秘殿守护者",
+            "de": "Ivillis Leanes",
+            "fi": "Iblis Leanes",
+            "fil": "Iblis Leanes",
+            "fr": "Ivillis Leanes",
+            "id": "Iblis Leanes",
+            "it": "Iblis Leanes",
+            "jp": "イブル",
+            "kr": "이블리스 네스",
+            "nl": "Iblis Leanes",
+            "pl": "Iblis Leanes",
+            "ru": "Черно-белый Ужосс",
+            "sp": "Adorador de Iblis",
+            "sw": "Iblis Leanes",
+            "th": "Iblis Leanes",
+            "tw": "地穴魔法大團長",
+            "vi": "Iblis Leanes"
+        },
+        "type": "partyorsolo",
+        "image": "iblisleanes.png",
+        "world": 8346,
+        "difficulty": "medium",
+        "minLevel": 1,
+        "maxLevel": 75,
+        "cooldownSecs": 86400,
+        "monsters": [
+            7249
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -70,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -84,
+                "maxPlayerCount": 1
+            }
+        ],
+        "requiredCreatorQuest": 3316
+    },
+    {
+        "id": 14530,
+        "name": {
+            "en": "Iblis Leanes",
+            "ar": "Iblis Leanes",
+            "br": "Iblis Leanes",
+            "cns": "秘殿守护者",
+            "de": "Ivillis Leanes",
+            "fi": "Iblis Leanes",
+            "fil": "Iblis Leanes",
+            "fr": "Ivillis Leanes",
+            "id": "Iblis Leanes",
+            "it": "Iblis Leanes",
+            "jp": "イブル",
+            "kr": "이블리스 네스",
+            "nl": "Iblis Leanes",
+            "pl": "Iblis Leanes",
+            "ru": "Черно-белый Ужосс",
+            "sp": "Adorador de Iblis",
+            "sw": "Iblis Leanes",
+            "th": "Iblis Leanes",
+            "tw": "地穴魔法大團長",
+            "vi": "Iblis Leanes"
+        },
+        "type": "partyorsolo",
+        "image": "iblisleanes.png",
+        "world": 8346,
+        "difficulty": "hard",
+        "minLevel": 1,
+        "maxLevel": 75,
+        "cooldownSecs": 86400,
+        "monsters": [
+            7249
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": 20
+            },
+            {
+                "parameter": "maxhp",
+                "value": 30
+            },
+            {
+                "parameter": "attack",
+                "value": 25
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": 10
+            }
+        ],
+        "requiredCreatorQuest": 3316
+    },
+    {
+        "id": 12516,
+        "name": {
+            "en": "Red Meteonyker",
+            "ar": "Red Meteonyker",
+            "br": "Meteonyker Vermelho",
+            "cns": "赤红飞龙",
+            "de": "Red Meteonyker",
+            "fi": "Red Meteonyker",
+            "fil": "Red Meteonyker",
+            "fr": "Meteonyker Rouge",
+            "id": "Red Meteonyker",
+            "it": "Red Meteonyker",
+            "jp": "レッドメテオニカ",
+            "kr": "붉은 메테오니커",
+            "nl": "Red Meteonyker",
+            "pl": "Red Meteonyker",
+            "ru": "Red Meteonyker",
+            "sp": "Meteonyker Rojo",
+            "sw": "Red Meteonyker",
+            "th": "Red Meteonyker",
+            "tw": "炙焰飛龍",
+            "vi": "Red Meteonyker"
+        },
+        "type": "partyorsolo",
+        "image": "volkanemeteo.png",
+        "world": 1098,
+        "difficulty": "normal",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 86400,
+        "monsters": [
+            8302
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -60,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -68,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": -10
+            },
+            {
+                "parameter": "maxhp",
+                "value": -20
+            },
+            {
+                "parameter": "attack",
+                "value": -20
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -20
+            }
+        ],
+        "requiredCreatorItem": 3145
+    },
+    {
+        "id": 16382,
+        "name": {
+            "en": "Red Meteonyker",
+            "ar": "Red Meteonyker",
+            "br": "Meteonyker Vermelho",
+            "cns": "赤红飞龙",
+            "de": "Red Meteonyker",
+            "fi": "Red Meteonyker",
+            "fil": "Red Meteonyker",
+            "fr": "Meteonyker Rouge",
+            "id": "Red Meteonyker",
+            "it": "Red Meteonyker",
+            "jp": "レッドメテオニカ",
+            "kr": "붉은 메테오니커",
+            "nl": "Red Meteonyker",
+            "pl": "Red Meteonyker",
+            "ru": "Red Meteonyker",
+            "sp": "Meteonyker Rojo",
+            "sw": "Red Meteonyker",
+            "th": "Red Meteonyker",
+            "tw": "炙焰飛龍",
+            "vi": "Red Meteonyker"
+        },
+        "type": "partyorsolo",
+        "image": "volkanemeteo.png",
+        "world": 1098,
+        "difficulty": "medium",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 86400,
+        "monsters": [
+            8302
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -70,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -84,
+                "maxPlayerCount": 1
+            }
+        ],
+        "requiredCreatorItem": 3145
+    },
+    {
+        "id": 19711,
+        "name": {
+            "en": "Red Meteonyker",
+            "ar": "Red Meteonyker",
+            "br": "Meteonyker Vermelho",
+            "cns": "赤红飞龙",
+            "de": "Red Meteonyker",
+            "fi": "Red Meteonyker",
+            "fil": "Red Meteonyker",
+            "fr": "Meteonyker Rouge",
+            "id": "Red Meteonyker",
+            "it": "Red Meteonyker",
+            "jp": "レッドメテオニカ",
+            "kr": "붉은 메테오니커",
+            "nl": "Red Meteonyker",
+            "pl": "Red Meteonyker",
+            "ru": "Red Meteonyker",
+            "sp": "Meteonyker Rojo",
+            "sw": "Red Meteonyker",
+            "th": "Red Meteonyker",
+            "tw": "炙焰飛龍",
+            "vi": "Red Meteonyker"
+        },
+        "type": "partyorsolo",
+        "image": "volkanemeteo.png",
+        "world": 1098,
+        "difficulty": "hard",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 86400,
+        "monsters": [
+            8302
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": 20
+            },
+            {
+                "parameter": "maxhp",
+                "value": 30
+            },
+            {
+                "parameter": "attack",
+                "value": 25
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": 10
+            }
+        ],
+        "requiredCreatorItem": 3145
+    },
+    {
+        "id": 22989,
+        "name": {
+            "en": "[Shade Lieutenant] Kriton",
+            "ar": "[Shade Lieutenant] Kriton",
+            "br": "[Shade Lieutenant] Kriton",
+            "cns": "[Shade Lieutenant] Kriton",
+            "de": "[Shade Lieutenant] Kriton",
+            "fi": "[Shade Lieutenant] Kriton",
+            "fil": "[Shade Lieutenant] Kriton",
+            "fr": "[Shade Lieutenant] Kriton",
+            "id": "[Shade Lieutenant] Kriton",
+            "it": "[Shade Lieutenant] Kriton",
+            "jp": "[Shade Lieutenant] Kriton",
+            "kr": "[Shade Lieutenant] Kriton",
+            "nl": "[Shade Lieutenant] Kriton",
+            "pl": "[Shade Lieutenant] Kriton",
+            "ru": "[Shade Lieutenant] Kriton",
+            "sp": "[Shade Lieutenant] Kriton",
+            "sw": "[Shade Lieutenant] Kriton",
+            "th": "[Shade Lieutenant] Kriton",
+            "tw": "[Shade Lieutenant] Kriton",
+            "vi": "[Shade Lieutenant] Kriton"
+        },
+        "type": "partyorsolo",
+        "image": "herneos.png",
+        "world": 23550,
+        "difficulty": "normal",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 86400,
+        "monsters": [
+            28482
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -60,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -68,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": -10
+            },
+            {
+                "parameter": "maxhp",
+                "value": -20
+            },
+            {
+                "parameter": "attack",
+                "value": -20
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -20
+            }
+        ]
+    },
+    {
+        "id": 22187,
+        "name": {
+            "en": "[Shade Lieutenant] Kriton",
+            "ar": "[Shade Lieutenant] Kriton",
+            "br": "[Shade Lieutenant] Kriton",
+            "cns": "[Shade Lieutenant] Kriton",
+            "de": "[Shade Lieutenant] Kriton",
+            "fi": "[Shade Lieutenant] Kriton",
+            "fil": "[Shade Lieutenant] Kriton",
+            "fr": "[Shade Lieutenant] Kriton",
+            "id": "[Shade Lieutenant] Kriton",
+            "it": "[Shade Lieutenant] Kriton",
+            "jp": "[Shade Lieutenant] Kriton",
+            "kr": "[Shade Lieutenant] Kriton",
+            "nl": "[Shade Lieutenant] Kriton",
+            "pl": "[Shade Lieutenant] Kriton",
+            "ru": "[Shade Lieutenant] Kriton",
+            "sp": "[Shade Lieutenant] Kriton",
+            "sw": "[Shade Lieutenant] Kriton",
+            "th": "[Shade Lieutenant] Kriton",
+            "tw": "[Shade Lieutenant] Kriton",
+            "vi": "[Shade Lieutenant] Kriton"
+        },
+        "type": "partyorsolo",
+        "image": "herneos.png",
+        "world": 23550,
+        "difficulty": "medium",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 86400,
+        "monsters": [
+            28482
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -70,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -84,
+                "maxPlayerCount": 1
+            }
+        ]
+    },
+    {
+        "id": 22374,
+        "name": {
+            "en": "[Shade Lieutenant] Kriton",
+            "ar": "[Shade Lieutenant] Kriton",
+            "br": "[Shade Lieutenant] Kriton",
+            "cns": "[Shade Lieutenant] Kriton",
+            "de": "[Shade Lieutenant] Kriton",
+            "fi": "[Shade Lieutenant] Kriton",
+            "fil": "[Shade Lieutenant] Kriton",
+            "fr": "[Shade Lieutenant] Kriton",
+            "id": "[Shade Lieutenant] Kriton",
+            "it": "[Shade Lieutenant] Kriton",
+            "jp": "[Shade Lieutenant] Kriton",
+            "kr": "[Shade Lieutenant] Kriton",
+            "nl": "[Shade Lieutenant] Kriton",
+            "pl": "[Shade Lieutenant] Kriton",
+            "ru": "[Shade Lieutenant] Kriton",
+            "sp": "[Shade Lieutenant] Kriton",
+            "sw": "[Shade Lieutenant] Kriton",
+            "th": "[Shade Lieutenant] Kriton",
+            "tw": "[Shade Lieutenant] Kriton",
+            "vi": "[Shade Lieutenant] Kriton"
+        },
+        "type": "partyorsolo",
+        "image": "herneos.png",
+        "world": 23550,
+        "difficulty": "hard",
+        "minLevel": 1,
+        "maxLevel": 165,
+        "cooldownSecs": 86400,
+        "monsters": [
+            28482
+        ],
+        "monsterMods": [
+            {
+                "parameter": "maxhp",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": -90,
+                "maxPlayerCount": 1
+            },
+            {
+                "parameter": "def",
+                "value": 20
+            },
+            {
+                "parameter": "maxhp",
+                "value": 30
+            },
+            {
+                "parameter": "attack",
+                "value": 25
+            },
+            {
+                "parameter": "monsterexpanddrop",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": 18131,
+        "name": {
+            "en": "Secret Room",
+            "ar": "Secret Room",
+            "br": "Sala Secreta",
+            "cns": "秘密房间",
+            "de": "Geheimer Raum",
+            "fi": "Secret Room",
+            "fil": "Secret Room",
+            "fr": "Chambres Secrètes",
+            "id": "Secret Room",
+            "it": "Secret Room",
+            "jp": "シークレットルーム",
+            "kr": "비밀의 방",
+            "nl": "Secret Room",
+            "pl": "Secret Room",
+            "ru": "Secret Room",
+            "sp": "Sala Secreto",
+            "sw": "Secret Room",
+            "th": "Secret Room",
+            "tw": "秘密房間 ",
+            "vi": "Secret Room"
+        },
+        "type": "guild",
+        "image": "secretroom.png",
+        "world": 9596,
+        "difficulty": "normal",
+        "minLevel": 30,
+        "maxLevel": 165,
+        "cooldownSecs": 604800,
+        "monsters": [
+            1336,
+            1146,
+            2728,
+            5318,
+            3785,
+            4449,
+            8932,
+            3261,
+            9709,
+            15183,
+            15864,
+            11069,
+            19214,
+            595,
+            2949
+        ],
+        "requiredCreatorPenya": 10000000,
+        "minGuildLevel": 10
+    }
+]

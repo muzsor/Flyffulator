@@ -16,14 +16,15 @@ import BasicStat from './charts/basicstat';
 import NumberInput from '../shared/numberinput';
 import RangeInput from '../shared/rangeinput';
 import ImportCharacter from '../base/importcharacter';
+import Slot from "../equipment/inventory/slot";
 
 function Calculations() {
     const AA_DEFAULT_SAMPLE_SIZE = 200;
     const AA_MAX_SAMPLE_SIZE = 10000;
-  
+
     const SKILL_DEFAULT_SAMPLE_SIZE = 100;
     const SKILL_MAX_SAMPLE_SIZE = 10000;
-  
+
     const MONSTER_DEFAULT_SAMPLE_SIZE = 100;
     const MONSTER_MAX_SAMPLE_SIZE = 10000;
 
@@ -51,7 +52,7 @@ function Calculations() {
                 <div className="spinner" />
             </div>
         );
-    }    
+    }
 
     useEffect(() => {
         setBigSampleActive(false);
@@ -70,18 +71,18 @@ function Calculations() {
         setIsLoadingAA(true);
         setIsLoadingSkill(true);
         setIsLoadingMonster(true);
-        
+
         // Add waterbomb
         if (Context.settings.waterbombEnabled && Context.attacker.getStat("skillchance", true, 11389) > 0) {
             Context.player.skillLevels[11389] = 1;
         }
 
-        
+
         // Counter attack
         if (Context.player.skillLevels[2506] != undefined) {
             Context.player.skillLevels[6725] = Context.player.skillLevels[2506];
         }
-    
+
         const context = {
             player: Context.player.serialize(),
             attacker: Context.attacker.serialize(),
@@ -127,7 +128,7 @@ function Calculations() {
                 console.error("Error in auto attack worker:", error);
                 setIsLoadingMonster(false);
             });
-    
+
         return () => {
             cancelled = true;
         };
@@ -219,6 +220,35 @@ function Calculations() {
 
     function setSetting(setting, value) {
         Context.settings[setting] = value;
+        setRefresh(!refresh);
+    }
+
+    function addBuffSkill() {
+        const buffs ={
+            4617: 5,
+            709: 1,
+            1524: 1,
+            477: 5,
+            6108: 5,
+            9819: 1,
+            1103: 1,
+        }
+        for (let [key, value] of Object.entries(buffs)) {
+             console.log(`Adding skill ${key} with level ${value}`);
+             Context.defender.activeBuffs[key] = value;
+        }
+        setRefresh(!refresh);
+        // showSearch({
+        //     type: "skill",
+        //     typeLocalization: "search_skill",
+        //     onSet: (result) => {
+        //         Context.defender.activeBuffs[parseInt(result.id)] = result.levels.length;
+        //     }
+        // });
+    }
+
+    function removeSkill(skill) {
+        delete Context.defender.activeBuffs[skill.id];
         setRefresh(!refresh);
     }
 
@@ -486,6 +516,23 @@ function Calculations() {
                     }
                 </div>
 
+                <div className="row">
+                    <div className="buffs">
+                        <div className="buffs-header">
+                            <span>Buffs</span>
+                            <button className="flyff-button" onClick={() => addBuffSkill()}>{i18n.t("skills_and_buffs_add")}</button>
+                        </div>
+                        <hr />
+                        <div className="buffs-container">
+                            {
+                                Object.entries(Context.defender.activeBuffs).map(([id,]) =>
+                                    <Slot key={id} className={"slot-skill"} content={Utils.getSkillById(id)} onRemove={removeSkill} />
+                                )
+                            }
+                        </div>
+                    </div>
+                </div>
+
                 <div className="grid" style={{marginBottom: "20px"}}>
                     <div>
                         <input type="checkbox" id="missing" checked={Context.settings.missingEnabled} onChange={() => setSetting("missingEnabled", !Context.settings.missingEnabled)} />
@@ -542,7 +589,7 @@ function Calculations() {
                         <NumberInput min={1} max={100} suffix={"%"} hasButtons={false} label={i18n.t("target_health")} onChange={(v) => setSetting("targetHealthPercent", v)} value={Context.settings.targetHealthPercent} />
                     </div>
                 </div>
-                
+
                 {/* Big sample inputs */}
 
                 <div className="column flex" style={{width: "fit-content", marginBottom: "20px"}}>
@@ -551,17 +598,17 @@ function Calculations() {
                         <label htmlFor="bigSample">{i18n.t("bigger_sample")}</label>
                     </div>
                 </div>
-                
+
                 <div className="row" style={{marginBottom: "20px"}}>
                     <span>{i18n.t("aa_sample_size")}</span>
                     <RangeInput min={100} max={AA_MAX_SAMPLE_SIZE} onChange={(v) => setAaBigSampleSize(v) } value={aaBigSampleSize} isRange={false} step={100} />
                 </div>
-                
+
                 <div className="row" style={{marginBottom: "20px"}}>
                     <span>{i18n.t("skill_sample_size")}</span>
                     <RangeInput min={100} max={SKILL_MAX_SAMPLE_SIZE} onChange={(v) => setSkillBigSampleSize(v) } value={skillBigSampleSize} isRange={false} step={100} />
                 </div>
-                
+
                 <div className="row" style={{marginBottom: "20px"}}>
                     <span>{i18n.t("monster_sample_size")}</span>
                     <RangeInput min={100} max={MONSTER_MAX_SAMPLE_SIZE} onChange={(v) => setMonsterBigSampleSize(v) } value={monsterBigSampleSize} isRange={false} step={100} />
@@ -572,7 +619,7 @@ function Calculations() {
                     <HoverInfo text={"Information about damage dealt using auto attacks and allocated skills."} />
                 </div>
                 <hr />
-                
+
                 <div className="charts">
                 {(isLoadingAA || isLoadingMonster || isLoadingSkill) && <SpinnerOverlay />}
                     <LineChart

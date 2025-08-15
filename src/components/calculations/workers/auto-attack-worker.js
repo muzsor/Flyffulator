@@ -28,6 +28,8 @@ self.onmessage = function (event) {
     Context.defender.activeBuffs = [];
     let out = [];
 
+    let totalDamage = 0;
+
     for (let i = 0; i < cycles; i++) {
         Context.skill = null;
 
@@ -37,12 +39,17 @@ self.onmessage = function (event) {
             Context.attackFlags = Utils.ATTACK_FLAGS.GENERIC;
         }
 
-        if (Context.player.jobId === 2246 && Context.player.equipment.offhand != null) {
+        let damage;
+        if (Context.player.job.id === 2246 && Context.player.equipment.offhand != null) {
+            // off hand always with main hand.
+            damage = leftHand ? getDamage(!leftHand) + getDamage(leftHand) : getDamage(leftHand);
             leftHand = !leftHand;
+        } else {
+            damage = getDamage(leftHand);
         }
 
         const res = {
-            damage: getDamage(leftHand),
+            damage: damage,
             critical: (Context.attackFlags & Utils.ATTACK_FLAGS.CRITICAL) !== 0,
             block: (Context.attackFlags & Utils.ATTACK_FLAGS.BLOCKING) !== 0,
             miss: (Context.attackFlags & Utils.ATTACK_FLAGS.MISS) !== 0,
@@ -52,7 +59,16 @@ self.onmessage = function (event) {
         };
 
         out.push(res);
+
+        totalDamage += damage;
     }
 
     self.postMessage(out);
+
+    console.log("Total Damage: " + totalDamage);
+    let attackSpeed = Context.player.getAttackSpeed() / 2;
+    let hps = 3 * attackSpeed;
+    console.log("Hit Per Second:", hps);
+    let totalSeconds = cycles / hps;
+    console.log("Damage Per Second:", totalDamage / totalSeconds);
 };

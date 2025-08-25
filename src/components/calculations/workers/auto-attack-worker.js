@@ -1,4 +1,3 @@
-
 import Context from '../../../flyff/flyffcontext';
 import * as Utils from "../../../flyff/flyffutils";
 import Entity from "../../../flyff/flyffentity";
@@ -24,7 +23,7 @@ self.onmessage = function (event) {
     Context.settings = context.settings
     Context.expSettings = context.expSettings
 
-    let leftHand = false;
+    let isDualWield = false;
     Context.defender.activeBuffs = [];
     let out = [];
 
@@ -39,17 +38,8 @@ self.onmessage = function (event) {
             Context.attackFlags = Utils.ATTACK_FLAGS.GENERIC;
         }
 
-        let damage;
-        if (Context.player.job.id === 2246 && Context.player.equipment.offhand != null) {
-            // off hand always with main hand.
-            damage = leftHand ? getDamage(!leftHand) + getDamage(leftHand) : getDamage(leftHand);
-            leftHand = !leftHand;
-        } else {
-            damage = getDamage(leftHand);
-        }
-
         const res = {
-            damage: damage,
+            damage: getDamage(isDualWield),
             critical: (Context.attackFlags & Utils.ATTACK_FLAGS.CRITICAL) !== 0,
             block: (Context.attackFlags & Utils.ATTACK_FLAGS.BLOCKING) !== 0,
             miss: (Context.attackFlags & Utils.ATTACK_FLAGS.MISS) !== 0,
@@ -60,15 +50,19 @@ self.onmessage = function (event) {
 
         out.push(res);
 
-        totalDamage += damage;
+        totalDamage += res.damage;
+
+        if (Context.player.job.id === 2246 && Context.player.equipment.offhand != null) {
+            isDualWield = !isDualWield;
+        }
     }
 
     self.postMessage(out);
 
     console.log("Total Damage: " + totalDamage);
-    let attackSpeed = Context.player.getAttackSpeed() / 2;
-    let hps = 3 * attackSpeed;
+    let hps = (30 / 80) * 4 * Context.player.getAttackSpeed();
     console.log("Hit Per Second:", hps);
     let totalSeconds = cycles / hps;
-    console.log("Damage Per Second:", totalDamage / totalSeconds);
+    console.log("Total Seconds:", totalSeconds);
+    console.log("Damage Per Second:", (totalDamage / totalSeconds / 1000).toString() + 'k');
 };

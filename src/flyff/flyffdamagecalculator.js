@@ -45,16 +45,10 @@ export function getHealing(skillProp) {
 
 /**
  * Get the damage done by a simulated attack in the current context.
- * @param {boolean} leftHand If the attacker is using their left hand for this attack.
- * @returns The amount of damage done for this attack.
- * @see {@link Context}
+ * @param isDualWield Whether the attack uses dual wield (attacking with both hands)
+ * @returns The total damage value
  */
-export function getDamage(leftHand) {
-    leftHanded = leftHand;
-    elementDefenseFactor = 0;
-    lifestealPercent = 0;
-    Context.afterDamageProps = {};
-
+export function getDamage(isDualWield) {
     // Check for miss is the first thing
     if (Context.settings.missingEnabled && !Context.isSkillAttack() && (Context.attackFlags & Utils.ATTACK_FLAGS.MAGIC) == 0) {
         const hitResult = checkHitRate();
@@ -63,6 +57,33 @@ export function getDamage(leftHand) {
             return 0;
         }
     }
+
+    let damage = 0;
+    let handFlag = Utils.HAND_FLAGS.RIGHT;
+    if (isDualWield) {
+        handFlag = Utils.HAND_FLAGS.DUAL;
+    }
+    for (let flag = 0x01; flag <= 0x02; ++flag) {
+        if (handFlag & flag) {
+            damage += calcDamage(flag == Utils.HAND_FLAGS.LEFT);
+        }
+    }
+
+    return damage;
+}
+
+
+/**
+ * Calculate the damage done by a simulated attack in the current context.
+ * @param {boolean} leftHand If the attacker is using their left hand for this attack.
+ * @returns The amount of damage done for this attack.
+ * @see {@link Context}
+ */
+function calcDamage(leftHand) {
+    leftHanded = leftHand;
+    elementDefenseFactor = 0;
+    lifestealPercent = 0;
+    Context.afterDamageProps = {};
 
     let totalDamage = 0;
     const attack = computeAttack();
@@ -233,6 +254,7 @@ function computeAttack() {
 
     if (Context.isPVE()) {
         attack += Context.attacker.getStat("pvedamage", false);
+        attack -= Context.defender.getStat("pveincomingdamage", false);
     }
 
     // Damage event multiplier here

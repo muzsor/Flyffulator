@@ -90,6 +90,12 @@ export const ATTACK_FLAGS = {
     REGION: 1 << 15 // AoE skill.
 };
 
+export const HAND_FLAGS = {
+    RIGHT: 1 << 0,
+    LEFT: 1 << 1,
+    DUAL: (1 << 0) | (1 << 1)
+}
+
 export function getClassById(id) {
     return classes[id];
 }

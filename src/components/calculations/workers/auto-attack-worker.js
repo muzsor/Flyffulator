@@ -59,10 +59,12 @@ self.onmessage = function (event) {
 
     self.postMessage(out);
 
-    console.log("Total Damage: " + totalDamage);
-    let hps = (30 / 80) * 4 * Context.player.getAttackSpeed();
-    console.log("Hit Per Second:", hps);
-    let totalSeconds = cycles / hps;
-    console.log("Total Seconds:", totalSeconds);
-    console.log("Damage Per Second:", (totalDamage / totalSeconds / 1000).toString() + 'k');
+    if (Context.attacker.isPlayer()){
+        console.log("Total Damage: " + totalDamage);
+        let hps = (30 / 80) * 4 * Context.player.getAttackSpeed();
+        console.log("Hit Per Second:", hps);
+        let totalSeconds = cycles / hps;
+        console.log("Total Seconds:", totalSeconds);
+        console.log("Damage Per Second:", (totalDamage / totalSeconds / 1000).toString() + 'k');
+    }
 };

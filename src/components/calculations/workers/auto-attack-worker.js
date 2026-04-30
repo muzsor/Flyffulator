@@ -28,6 +28,10 @@ self.onmessage = function (event) {
     let out = [];
 
     let totalDamage = 0;
+    let rightDamageMax = 0;
+    let rightDamageMin = 999_999_999;
+    let dualDamageMax = 0;
+    let dualDamageMin = 999_999_999;
 
     for (let i = 0; i < cycles; i++) {
         Context.skill = null;
@@ -51,8 +55,21 @@ self.onmessage = function (event) {
         out.push(res);
 
         totalDamage += res.damage;
+        if (isDualWield) {
+            dualDamageMax = Math.max(dualDamageMax, res.damage);
+            if (!res.miss) {
+                dualDamageMin = Math.min(dualDamageMin, res.damage);
+            }
 
-        if (Context.player.job.id === 2246 && Context.player.equipment.offhand != null) {
+        } else {
+            rightDamageMax = Math.max(rightDamageMax, res.damage);
+            if (!res.miss) {
+                rightDamageMin = Math.min(rightDamageMin, res.damage);
+            }
+        }
+
+        if ((Context.player.job.id === 2246 || Context.player.job.id === 23509) &&
+             Context.player.equipment.offhand != null) {
             isDualWield = !isDualWield;
         }
     }
@@ -60,11 +77,14 @@ self.onmessage = function (event) {
     self.postMessage(out);
 
     if (Context.attacker.isPlayer()){
+        console.log("Right Hand Damage: ", `${rightDamageMin.toLocaleString()} ~ ${rightDamageMax.toLocaleString()}`);
+        console.log("Left Hand Damage: ", `${(dualDamageMin - rightDamageMin).toLocaleString()} ~ ${(dualDamageMax - rightDamageMax).toLocaleString()}`);
+        console.log("Dual Hand Damage: ", `${dualDamageMin.toLocaleString()} ~ ${dualDamageMax.toLocaleString()}`);
         console.log("Total Damage: " + totalDamage);
         let hps = (30 / 80) * 4 * Context.player.getAttackSpeed();
-        console.log("Hit Per Second:", hps);
+        //console.log("Hit Per Second:", hps);
         let totalSeconds = cycles / hps;
-        console.log("Total Seconds:", totalSeconds);
+        //console.log("Total Seconds:", totalSeconds);
         console.log("Damage Per Second:", (totalDamage / totalSeconds / 1000).toString() + 'k');
     }
 };

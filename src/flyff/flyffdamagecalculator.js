@@ -410,7 +410,7 @@ function applyDefense(attack) {
         factor *= 0.6;
     }
     if (leftHanded) {
-        factor *= 0.75;
+        factor *= (0.75 + (Context.attacker.getStat("lefthanddamage", true) / 100));
     }
 
     if (Context.defender.removeAttribute("double")) {
